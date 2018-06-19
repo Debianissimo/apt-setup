@@ -28,14 +28,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2017-10-23 22:02+0000\n"
-"PO-Revision-Date: 2018-02-06 08:37+0000\n"
+"PO-Revision-Date: 2018-06-14 08:38+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: text
 #. Description
@@ -53,7 +53,7 @@ msgstr "הגדרת מנהל החבילות"
 #. :sl1:
 #: ../apt-setup-udeb.templates:2001
 msgid "Configuring apt"
-msgstr "הגדרת apt"
+msgstr "apt מוגדר"
 
 #. Type: text
 #. Description
@@ -235,10 +235,10 @@ msgid ""
 "the usability of the software. It also provides regression fixes. This "
 "service is only available for stable and oldstable releases."
 msgstr ""
-"עדכוני גרסה מספקים גרסאות עדכניות יותר של תוכנה שמשתנה בתדירות גבוהה, ומצב "
-"שבו הגרסה האחרונה אינה מותקנת יכול להוריד את השימושיות של התוכנה. כמו כן "
-"ישנם תיקונים עבור נסיגות ביכולות התוכנה. שירות זה זמין רק עבור הגרסה היציבה "
-"והיציבה הקודמת של הפרוייקט."
+"עדכוני גרסה מספקים גרסאות עדכניות יותר לתכניות שמשתנות בתדירות גבוהה שבהן "
+"שימוש בגרסה מיושנת עשוי להגביל את תכונות התכנית. העדכונים גם מספקים תיקונים "
+"לתקלות חוזרות. שירות זה זמין רק לגרסה היציבה (stable) ולגרסה היציבה המיושנת "
+"(oldstable)."
 
 #. Type: multiselect
 #. Description
@@ -252,12 +252,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"תוכנות, שעברו התאמה לסביבה ישנה, הן תוכנות שהוסבו מגרסת הפיתוח כדי לעבוד "
-"בגרסה הנוכחית. למרות שתוכנות אלה לא עברו בדיקות מקיפות כמו התוכנות בגרסה "
-"הנוכחית, הן כוללות גרסאות חדשות של כמה יישומים, שיכולים להוסיף תכונות "
-"שימושיות. אם תאפשרוכאן התקנת תוכנות, שעברו התאמה לסביבה ישנה, הדבר לא יגרום "
-"לאף אחת מהן להיות מותקנת כברירת מחדל. זה רק יאפשר לכם לבחור ידנית באלו "
-"תוכנות, שעברו התאמה לסביבה ישנה, להשתמש."
+"תכניות שהוסבו לגרסאות מיושנות עוברות אימוץ מגרסת הפיתוח כדי שיעבדו עם הגרסה "
+"הזאת. למרות שהתכנית הזאת לא עברה מסלול בדיקות שלם כמו זה שחל על התכנית "
+"שנכללה בגרסה, המאגר כולל גרסאות חדשות יותר של יישומים כלשהם שעשויים לספק "
+"תכונות שימושיות. הפעלת מאגר התכניות שהוסבו לגרסאות ישנות (backports) דרך כאן "
+"לא גורר התקנה של תכנית כלשהי כבררת מחדל, ההפעלה רק מאפשר לבחור באיזו גרסה "
+"מהמאגר להשתמש."
 
 #. Type: boolean
 #. Description
@@ -340,8 +340,8 @@ msgid ""
 "installation CD/DVD. If you do not have any additional CDs or DVDs "
 "available, this step can just be skipped."
 msgstr ""
-"ניתן כעת לסרוק CDים ו-DVDים נוספים לשימוש ע\"י מנהל החבילות (apt). בדרך כלל "
-"אלו אמורים להיות חלק מסט התקליטורים, שממנו בא תקליטור ההתקנה. אם אין "
+"ניתן כעת לסרוק תקליטורי CD ו־DVD נוספים לשימוש מנהל החבילות (apt). בדרך כלל "
+"אלו אמורים להיות חלק מערכת התקליטורים שממנה מגיע תקליטור התקנה זה. אם אין "
 "תקליטורים נוספים, ניתן פשוט לדלג על שלב זה."
 
 #. Type: boolean
@@ -410,8 +410,8 @@ msgid ""
 "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/: נא להכניס את התקליטור עם התווית: '${LABEL}' לכונן '/cdrom/' וללחוץ "
-"על המקש enter."
+"/cdrom/: נא להכניס את התקליטור עם התווית: ‚${LABEL}’ לכונן ‚/cdrom/’ וללחוץ "
+"על enter."
 
 #. Type: text
 #. Description
@@ -432,8 +432,8 @@ msgid ""
 "If you are installing from a netinst CD and choose not to use a mirror, you "
 "will end up with only a very minimal base system."
 msgstr ""
-"אם ההתקנה מתבצעת מתקליטור של התקנה מהרשת (netinst CD), ובחרת לא להשתמש באתר "
-"מראה, המערכת שתתקבל בסיום ההתקנה תהיה מערכת בסיסית מינימלית מאוד."
+"אם ההתקנה מתבצעת מתקליטור התקנה מהרשת (netinst CD) ובחירתך היא שלא להשתמש "
+"באתר מראה, המערכת שתתקבל בסיום ההתקנה תהיה מערכת בסיסית מזערית מאוד."
 
 #. Type: text
 #. Description
@@ -444,8 +444,9 @@ msgid ""
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"אתה מתקין באמצעות תקליטור התקנה מהרשת (netinst CD), שמאפשר בעצמו רק התקנה של "
-"מערכת בסיסית מינימלית מאוד. השתמש באתר מראה כדי להתקין מערכת יותר שלמה."
+"התקנה זו מתבצעת באמצעות תקליטור התקנה מהרשת (netinst CD) שכיחידה עצמאית מציע "
+"רק התקנה של מערכת בסיסית מזערית מאוד. כדאי להשתמש באתר מראה כדי להתקין מערכת "
+"יותר מלאה."
 
 #. Type: text
 #. Description
@@ -555,9 +556,9 @@ msgid ""
 "to install it. This software has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"חלק מהתוכנה הלא חופשית עובדת עם דביאן. למרות שתוכנה זאת אינה חלק מדביאן, "
-"כלים סטנדרטים של דביאן יכולים לשמש כדי להתקין אותה. לתוכנה זאת יש רישיונות "
-"שונים שיכולים למנוע ממך להשתמש, לשנות או לשתף אותה."
+"ישנם רכיבי תכנה בלתי חופשיים שהוסבו לצורך עבודה עם דביאן. למרות שתכניות אלה "
+"אינן חלק מדביאן, ניתן להשתמש בכלים התקניים של דביאן כדי להתקין אותן. לתכניות "
+"אלה תנאי רישוי מגוונים שעשויים למנוע ממך להשתמש בהן, לשנות אותן או לשתף אותן."
 
 #  Type: boolean
 #  Description
@@ -595,9 +596,9 @@ msgid ""
 "software is not a part of Debian, but standard Debian tools can be used to "
 "install it."
 msgstr ""
-"חלק מתוכנה נוספת עובדת עם דביאן. למרות שזאת תוכנה חופשית, היא תלויה בתוכנה "
-"לא חופשית לצורך פעולתה. תכונה זאת אינה חלק מדביאן אבל כלים סטנדרטים של דביאן "
-"יכולים לשמש לצורך התקנתה."
+"ישנם רכיבי תכנה שהוסבו לצורך עבודה עם דביאן. למרות שמדובר בתכנה חופשית היא "
+"תלויה בתכנה בלתי חופשית כדי לפעול. תכניות שכאלה אינן חלק מדביאן אך ניתן "
+"להשתמש בכלים התקניים של דביאן כדי להתקין אותן."
 
 #  Type: boolean
 #  Description
