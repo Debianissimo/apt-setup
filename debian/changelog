@@ -1,8 +1,16 @@
-apt-setup (1:0.142) UNRELEASED; urgency=medium
+apt-setup (1:0.142) unstable; urgency=medium
 
+  * Team upload
+
+  [ Cyril Brulebois ]
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:42:58 +0200
+  [ Updated translations ]
+  * Finnish (fi.po)
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Telugu (te.po) by Praveen Illa
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 10 Aug 2018 20:45:59 +0200
 
 apt-setup (1:0.141) unstable; urgency=medium
 
