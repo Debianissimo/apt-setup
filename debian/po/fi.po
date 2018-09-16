@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2017-10-23 22:02+0000\n"
-"PO-Revision-Date: 2018-08-04 18:37+0000\n"
-"Last-Translator: Arto Keiski <arto.keiski@iki.fi>\n"
+"PO-Revision-Date: 2018-08-14 21:36+0000\n"
+"Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -329,7 +329,7 @@ msgstr "Lisää toinen CD tai DVD?"
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Your installation CD or DVD has been scanned; its label is:"
-msgstr "Asennus-CD tai -DVD on lisätty; sen nimiö on: "
+msgstr "Asennus-CD tai -DVD on lisätty; sen nimiö on:"
 
 #. Type: boolean
 #. Description
