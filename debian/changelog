@@ -1,3 +1,10 @@
+apt-setup (1:0.143) UNRELEASED; urgency=medium
+
+   [ Holger Wansing ]
+   * Change deprecated Priority: extra into optional.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 27 Sep 2018 17:36:02 +0200
+
 apt-setup (1:0.142) unstable; urgency=medium
 
   * Team upload
