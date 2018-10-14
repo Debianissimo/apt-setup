@@ -9,6 +9,7 @@
 # in doc/i18n/i18n.txt
 # astur <malditoastur@gmail.com>, 2010
 # Marquinos <maacub@gmail.com>, 2010.
+# Xuacu Saturio <xuacusk8@gmail.com>, 2018.
 # Translations from iso-codes:
 # Marcos Alvarez Costales <marcoscostales@gmail.com>, 2009, 2010.
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
@@ -18,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
-"PO-Revision-Date: 2012-10-09 13:08+0100\n"
-"Last-Translator: ivarela <ivarela@ubuntu.com>\n"
+"POT-Creation-Date: 2017-10-23 22:02+0000\n"
+"PO-Revision-Date: 2018-10-02 21:21+0000\n"
+"Last-Translator: Xuacu Saturio <xuacusk8@gmail.com>\n"
 "Language-Team: Softastur\n"
 "Language: ast\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +80,6 @@ msgstr "Analizando'l repositoriu d'anovamientos de la distribución..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "Analizando'l repositoriu d'anovamientos de la distribución..."
 
@@ -178,7 +178,7 @@ msgstr "Anovamientos de seguridá (dende ${SEC_HOST})"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "release updates"
-msgstr "anovamientos de la distribución:"
+msgstr "anovamientos de la distribución"
 
 #. Type: multiselect
 #. Choices
@@ -187,10 +187,8 @@ msgstr "anovamientos de la distribución:"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
-msgstr "¿Usar software backported?"
+msgstr "software retroportáu"
 
 #. Type: multiselect
 #. Description
@@ -241,12 +239,6 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -255,10 +247,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"Dellos programes migraron a versiones más nueves emplegando la xamasca de "
-"desendolcu pa que furrulen nesta versión. Estos programes inclúin versiones "
-"más nueves d'aplicaciones que pueden ufrir funcionalidaes prestoses anque "
-"nun pasen pruebes tán fonderes como los que tien esta versión."
+"Los programes retroportaos adautáronse dende la versión en desendolcu pa que "
+"funcione con esta versión. Anque esti software non pasó per unes pruebes tan "
+"completes como l'incluíu na distribución,  incluye versiones más de recién "
+"de dalgunes aplicaciones que puen ufrir carauterístiques útiles. Activar "
+"equí'l software retroportáu nun fai que s'instale de mou predetermináu; "
+"namái va permitite escoyer manualmente quéprogrames retroportaos usar."
 
 #. Type: boolean
 #. Description
@@ -562,8 +556,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr "Por favor, escueyi si quies tenelu disponible."
 
@@ -608,8 +601,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001
