@@ -1,3 +1,14 @@
+apt-setup (1:0.144) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Asturian (ast.po) by Xuacu Saturio
+  * Latvian (lv.po) by Tranzistors
+  * Marathi (mr.po) by Nayan Nakhare
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 30 Oct 2018 18:18:41 +0100
+
 apt-setup (1:0.143) unstable; urgency=medium
 
   * Team upload
