@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2017-10-23 22:02+0000\n"
-"PO-Revision-Date: 2018-08-14 21:36+0000\n"
+"PO-Revision-Date: 2018-12-19 23:08+0000\n"
 "Last-Translator: Juhani Numminen <juhaninumminen0@gmail.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
@@ -195,7 +195,7 @@ msgstr "julkaisupäivitykset"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "backported software"
-msgstr "kehiitysversiosta vakaaseen sovitetut paketit"
+msgstr "seuraavasta versiosta nykyiseen tuotu ohjelma"
 
 #. Type: multiselect
 #. Description
@@ -716,7 +716,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Käytä ohjelmia universe-jakelusta."
+msgstr "Käytetäänkö ohjelmia universe-jakelusta?"
 
 #. Type: boolean
 #. Description
