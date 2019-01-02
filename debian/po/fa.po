@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2017-10-23 22:02+0000\n"
-"PO-Revision-Date: 2018-01-13 19:58+0000\n"
+"PO-Revision-Date: 2019-01-01 17:49+0000\n"
 "Last-Translator: nima sahraneshin <unix.nima@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
@@ -281,7 +281,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the CD-ROM..."
-msgstr "پویش CD-ROM"
+msgstr "پویش CD-ROM..."
 
 #. Type: error
 #. Description
@@ -354,14 +354,14 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
 msgid "The CD or DVD with the following label has been scanned:"
-msgstr "سی دی یا دی وی دی با این برچسب معرفی شد: "
+msgstr "سی دی یا دی وی دی با این برچسب معرفی شد:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "The CD or DVD with the following label has already been scanned:"
-msgstr "سی دی یا دی وی دی با این برچسب معرفی شد: "
+msgstr "سی دی یا دی وی دی با این برچسب معرفی شد:"
 
 #. Type: boolean
 #. Description
@@ -378,7 +378,7 @@ msgstr ""
 msgid ""
 "An attempt to configure apt to install additional packages from the CD/DVD "
 "failed."
-msgstr "تلاش برای پیکربندی apt برای نصب بسته‌های دیگر از CD/DVD شکست خورد"
+msgstr "تلاش برای پیکربندی apt برای نصب بسته‌های دیگر از CD/DVD شکست خورد."
 
 #. Type: boolean
 #. Description
