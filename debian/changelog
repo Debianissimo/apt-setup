@@ -1,3 +1,9 @@
+apt-setup (1:0.145) UNRELEASED; urgency=medium
+
+  * Remove trailing whitespaces from changelog file, to fix lintian tag.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 07 Jan 2019 22:28:54 +0100
+
 apt-setup (1:0.144) unstable; urgency=medium
 
   * Team upload
@@ -17,7 +23,7 @@ apt-setup (1:0.143) unstable; urgency=medium
   * Finnish (fi.po) by Juhani Numminen
   * French (fr.po) by Alban Vidal
   * Galician (gl.po) by mantinan
-  * Hindi (hi.po) by Himanshu Awasthi 
+  * Hindi (hi.po) by Himanshu Awasthi
 
    [ Holger Wansing ]
   * Change deprecated Priority: extra into optional.
@@ -674,7 +680,7 @@ apt-setup (1:0.69) unstable; urgency=low
 apt-setup (1:0.68) unstable; urgency=low
 
   * Team upload
-  
+
   [ Updated translations ]
   * Malayalam (ml.po) by Praveen
 
@@ -1004,7 +1010,7 @@ apt-setup (1:0.49) unstable; urgency=low
   * Bengali (bn.po) by Israt Jahan
   * Catalan (ca.po) by Jordi Mallach
   * Icelandic (is.po) by Sveinn í Felli
-  
+
  -- Otavio Salvador <otavio@debian.org>  Fri, 12 Nov 2010 09:39:59 -0200
 
 apt-setup (1:0.48) unstable; urgency=low
@@ -1046,7 +1052,7 @@ apt-setup (1:0.47) unstable; urgency=low
   * Panjabi (pa.po) by A S Alam
   * Portuguese (Brazil) (pt_BR.po) by Felipe Augusto van de Wiel (faw)
   * Telugu (te.po) by Arjuna Rao Chavala
-  
+
  -- Otavio Salvador <otavio@debian.org>  Mon, 20 Sep 2010 01:06:01 -0300
 
 apt-setup (1:0.46) unstable; urgency=low
@@ -1192,7 +1198,7 @@ apt-setup (1:0.42) unstable; urgency=low
   * Slovak (sk.po) by Ivan Masár
   * Turkish (tr.po) by Mert Dirik
   * Simplified Chinese (zh_CN.po) by Deng Xiyue
-       
+
  -- Otavio Salvador <otavio@ossystems.com.br>  Tue, 21 Jul 2009 12:13:34 -0300
 
 apt-setup (1:0.41) unstable; urgency=low
