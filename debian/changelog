@@ -1,8 +1,14 @@
-apt-setup (1:0.145) UNRELEASED; urgency=medium
+apt-setup (1:0.145) unstable; urgency=medium
+  * Team upload
 
+  [ Holger Wansing ]
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
- -- Holger Wansing <hwansing@mailbox.org>  Mon, 07 Jan 2019 22:28:54 +0100
+  [ Updated translations ]
+  * Persian (fa.po) by Nima Sahraneshin
+  * Finnish (fi.po) by Juhani Numminen
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 10 Jan 2019 23:20:27 +0100
 
 apt-setup (1:0.144) unstable; urgency=medium
 
@@ -25,7 +31,7 @@ apt-setup (1:0.143) unstable; urgency=medium
   * Galician (gl.po) by mantinan
   * Hindi (hi.po) by Himanshu Awasthi
 
-   [ Holger Wansing ]
+  [ Holger Wansing ]
   * Change deprecated Priority: extra into optional.
 
  -- Holger Wansing <hwansing@mailbox.org>  Thu, 27 Sep 2018 17:36:02 +0200
