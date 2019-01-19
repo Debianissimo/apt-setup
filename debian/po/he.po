@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2017-10-23 22:02+0000\n"
-"PO-Revision-Date: 2018-06-14 08:38+0000\n"
+"PO-Revision-Date: 2019-01-18 15:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -67,28 +67,28 @@ msgstr "מתבצעת הרצה של ${SCRIPT}…"
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "סריקת מאגרים מקומיים..."
+msgstr "מאגרים מקומיים נסרקים…"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "סורק את מאגר עדכוני האבטחה..."
+msgstr "מאגר עדכוני האבטחה נסרק…"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "סורק את מאגר העדכונים לגרסה..."
+msgstr "מאגר העדכונים לגרסה נסרק…"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "סורק את מאגר ההתאמות לסביבה ישנה..."
+msgstr "מאגר ההתאמות לסביבה ישנה נסרק…"
 
 #. Type: select
 #. Choices
@@ -708,9 +708,9 @@ msgid ""
 "can be used to install it. This software has varying licenses which may "
 "prevent you from using, modifying, or sharing it."
 msgstr ""
-"מספר תוכנות לא חופשיות זמינות בצורת חבילות. למרות שתוכנה זאת אינה חלק מההפצה "
-"הראשית, ניתן להשתמש בכלים לניהול חבילות כדי להתקין אותה. לתוכנות אלה יש "
-"רישיונות שונים, שעלולים למנוע ממך להשתמש, לשנות או לחלוק אותן."
+"מספר תכניות לא חופשיות זמינות בצורת חבילות. למרות שתכניות אלו אינן חלק "
+"מההפצה הראשית, ניתן להשתמש בכלים לניהול חבילות כדי להתקין אותן. לתכניות אלו "
+"ישנם מגוון רישיונות, שעלולים למנוע ממך להשתמש, לשנות או לשתף אותן עם אחרים."
 
 #. Type: boolean
 #. Description
@@ -718,7 +718,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "להשתמש בתוכנה מרכיב \"universe\" ?"
+msgstr "להשתמש בתכניות מהרכיב „universe”?"
 
 #. Type: boolean
 #. Description
@@ -739,7 +739,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "להשתמש בתוכנה מרכיב \"multiverse\" ?"
+msgstr "להשתמש בתכניות מהרכיב „multiverse”?"
 
 #  Type: boolean
 #  Description
@@ -765,7 +765,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr "להשתמש בתוכנה ממאגר \"partner\"?"
+msgstr "להשתמש בתכניות מהמאגר „partner”?"
 
 #. Type: boolean
 #. Description
@@ -777,8 +777,9 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"תוכנה נוספת זמינה ממאגר \"partner\" של חב' קנוניקל.  תוכנה זו אינה חלק מ-"
-"Ubuntu, אבל מוצעת על ידי קנוניקל והספקים בתור שרות למשתמשי Ubuntu."
+"מגוון תכניות נוספות זמינות מהמאגר „partner” מבית Canonical. תכניות אלו אינן "
+"חלק מאובונטו אך הן מוצעות על ידי Canonical ומגוון ספקים נוספים לרווחת משתמשי "
+"אובונטו."
 
 #. Type: boolean
 #. Description
