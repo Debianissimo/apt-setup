@@ -13,25 +13,22 @@
 # Sinuri ni Roel Cantada noong Peb-Mar 2005.
 # This file is maintained by Eric Pareja <eric.pareja@gmail.com>
 # Inaalagaan ang talaksang ito ni Eric Pareja <eric.pareja@gmail.com>
-#
 # ituloy angsulong mga kapatid http://www.upm.edu.ph/~xenos
-#
-#
 # Translations from iso-codes:
 #   Eric Pareja <xenos@upm.edu.ph> 2005,2006
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2010-07-09 22:53+0800\n"
+"PO-Revision-Date: 2017-12-02 22:53+0000\n"
 "Last-Translator: Eric Pareja <eric.pareja@gmail.com>\n"
 "Language-Team: Tagalog <debian-tl@banwa.upm.edu.ph>\n"
 "Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: text
 #. Description
@@ -195,7 +192,6 @@ msgstr "Burahin ang mga datos:"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "Gumamit ng software na <<backported>>?"
 
@@ -251,11 +247,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -415,15 +406,11 @@ msgstr "Pagpalit ng media"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Ikasa ang disc na may pangalang: '${LABEL}' sa drive '/cdrom/' at "
+"/cdrom/: Ikasa ang disc na may pangalang '${LABEL}' sa drive '/cdrom/' at "
 "pindutin ang enter."
 
 #. Type: text

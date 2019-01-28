@@ -7,7 +7,7 @@
 # Copyright (C) 2003,2004,2005,2008 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
-# Changwoo Ryu <cwryu@debian.org>, 2010-2012, 2014-2015, 2017.
+# Changwoo Ryu <cwryu@debian.org>, 2010-2012, 2014-2015, 2017-2018.
 #
 # Translations from iso-codes:
 # Copyright (C)
@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2017-02-11 12:13+0900\n"
+"PO-Revision-Date: 2018-10-27 05:00+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team:  Korean <debian-l10n-korean@lists.debian.org>\n"
 "Language: ko\n"
@@ -403,16 +403,12 @@ msgstr "미디어 바꾸기"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:이름이 '${LABEL}'인 디스크를 '/cdrom/' 드라이브에 넣고 <Enter>를 누르"
-"십시오."
+"/cdrom/: 이름이 '${LABEL}'인 디스크를 '/cdrom/' 드라이브에 넣고 <Enter>를 누"
+"르십시오."
 
 #. Type: text
 #. Description

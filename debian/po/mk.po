@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2012-06-21 08:59+0200\n"
+"PO-Revision-Date: 2012-09-23 01:33+0200\n"
 "Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
 "Language-Team: Macedonian <>\n"
 "Language: mk\n"
@@ -84,7 +84,6 @@ msgstr "Скенирам складиште за надградби..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "Скенирам складиште за надградби..."
 
@@ -193,7 +192,6 @@ msgstr "Надградби за изданието"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "Да користам прилагоден софтвер?"
 
@@ -246,11 +244,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -410,15 +403,11 @@ msgstr "Промена на медиум"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Ве молам внесете го дискот со ознаката: '${LABEL}' во уредот '/"
+"/cdrom/: Ве молам внесете го дискот со ознаката '${LABEL}' во уредот '/"
 "cdrom/' и притиснете Ентер."
 
 #. Type: text

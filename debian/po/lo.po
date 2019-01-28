@@ -17,7 +17,7 @@ msgstr ""
 "PO-Revision-Date: 2012-04-25 09:05+0700\n"
 "Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
-"Language: \n"
+"Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -180,7 +180,6 @@ msgstr "ລົບຂໍ້ມູນ:"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "ຈະໃຊ້ຊອບແວ້ຍ້າຍກັບຫຼືບໍ່?"
 
@@ -226,11 +225,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -384,14 +378,10 @@ msgstr "ປ່ຽນແຜ່ນ"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
-msgstr "/cdrom/:ກະລຸນາໃສ່ແຜ່ນຊື່: '${LABEL}' ລົງໃນໄດຣ '/cdrom/' ແລ້ວກົດ enter"
+msgstr "/cdrom/: ກະລຸນາໃສ່ແຜ່ນຊື່ '${LABEL}' ລົງໃນໄດຣ '/cdrom/' ແລ້ວກົດ enter"
 
 #. Type: text
 #. Description

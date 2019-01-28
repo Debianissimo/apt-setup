@@ -27,13 +27,13 @@
 #      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2011.
 #      Tomasz Z. Napierala <zen@debian.linux.org.pl>, 2004, 2006.
 # Marcin Owsiany <porridge@debian.org>, 2011.
-# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016.
+# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2016-10-08 12:09+0200\n"
+"PO-Revision-Date: 2018-12-17 22:56+0100\n"
 "Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -418,15 +418,11 @@ msgstr "Zmiana nośnika"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Włóż płytę z etykietą: '${LABEL}' do napędu '/cdrom/' i naciśnij "
+"/cdrom/: Włóż płytę z etykietą '${LABEL}' do napędu '/cdrom/' i naciśnij "
 "enter."
 
 #. Type: text

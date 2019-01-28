@@ -79,7 +79,6 @@ msgstr "ཞིབ་ལྟ་དང་ གསར་སྟོན་དུས་�
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "ཞིབ་ལྟ་དང་ གསར་སྟོན་དུས་མཐུན་མཛོད་གནས..."
 
@@ -189,7 +188,6 @@ msgstr "གསར་སྟོན་དུས་མཐུན།"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "ལོག་འདྲེན་ལམ་འབད་ཡོད་མི་མཉེན་ཆས་ལག་ལུན་འཐབ?"
 
@@ -242,11 +240,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -406,15 +399,11 @@ msgstr "བརྡ་ལམ་གྱི་འགྱུར་བ་"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:ཁ་ཡིག་ཅན་གྱི་ཌིསཀི་བཙུགས་གནང་: '${LABEL}' འདི་འདྲེན་འཕྲུལ་ '/cdrom/' ནང་བཙུགས་ཏེ་ "
+"/cdrom/: ཁ་ཡིག་ཅན་གྱི་ཌིསཀི་བཙུགས་གནང་ '${LABEL}' འདི་འདྲེན་འཕྲུལ་ '/cdrom/' ནང་བཙུགས་ཏེ་ "
 "བཙུགས་ལུ་ཨེབས།"
 
 #. Type: text

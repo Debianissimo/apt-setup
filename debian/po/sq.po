@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2017-09-04 19:14+0200\n"
-"Last-Translator: Silva Arapi <silva.arapi@gmail.com>\n"
+"PO-Revision-Date: 2017-09-11 23:13+0300\n"
+"Last-Translator: Sotirios Vrachas <sotirios@vrachas.net>\n"
 "Language-Team: Albanian <debian-l10n-albanian@lists.debian.org>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
@@ -404,15 +404,11 @@ msgstr "Ndryshim media"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Të lutem fut diskun me etiketë: '${LABEL}' në dispozitivin '/cdrom/' "
+"/cdrom/: Të lutem fut diskun me etiketë '${LABEL}' në dispozitivin '/cdrom/' "
 "dhe shtyp enter."
 
 #. Type: text

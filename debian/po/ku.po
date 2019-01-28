@@ -192,7 +192,6 @@ msgstr "Daneyan jê bibe:"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "Nivîsbariyên paş de hatine kişandin bila werine bikaranîn?"
 
@@ -238,11 +237,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -399,15 +393,11 @@ msgstr "Guhartina dîskê"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:Ji kerema xwe re dîska bi etîketa: '${LABEL}' têxe ajogera '/cdrom/' "
+"/cdrom/: Ji kerema xwe re dîska bi etîketa '${LABEL}' têxe ajogera '/cdrom/' "
 "û li enter pê bike."
 
 #. Type: text

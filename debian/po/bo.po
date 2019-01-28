@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2012-04-14 22:12+0600\n"
+"PO-Revision-Date: 2018-11-23 06:07+0000\n"
 "Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
 "Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
 "Language: bo\n"
@@ -178,7 +178,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "ཚོད་ལྟ་ཆ་ཚང་བྱས་མེད་པའི་མཉེན་ཆས་སྤྱོད་དགོས་སམ"
 
@@ -224,11 +223,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -382,15 +376,11 @@ msgstr "མཇུག་མཛོད་བརྗེ་ལེན"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
-"/cdrom/:ཁ་བྱང་འདི་ཡིན་པའི་འོད་སྡེར་བཅུག་རོགས: '${LABEL}' དེ་ '/cdrom/' སྒུལ་ཆས་ནང་དུ་བཞག་"
+"/cdrom/: ཁ་བྱང་འདི་ཡིན་པའི་འོད་སྡེར་བཅུག་རོགས '${LABEL}' དེ་ '/cdrom/' སྒུལ་ཆས་ནང་དུ་བཞག་"
 "ནས་ Enter མཐེབ་ལ་མནན་རོགས"
 
 #. Type: text

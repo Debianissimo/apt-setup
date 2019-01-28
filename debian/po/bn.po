@@ -25,14 +25,15 @@
 #   Jamil Ahmed <jamil@bengalinux.org>, 2006.
 #   Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
 #   Israt Jahan <israt@ankur.org.bd>, 2010.
-#   Ayesha Akhtar <ayesha@ankur.org.bd>, 2012. 
+#   Ayesha Akhtar <ayesha@ankur.org.bd>, 2012.
+#   Robin Mehdee (রবিন মেহদী) <robin@ankur.org.bd>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2012-06-18 15:09+0600\n"
-"Last-Translator: Ayesha Akhtar <ayesha@ankur.org.bd>\n"
+"PO-Revision-Date: 2012-03-13 19:06+0600\n"
+"Last-Translator: Robin Mehdee (রবিন মেহদী) <robin@ankur.org.bd>\n"
 "Language-Team: Bengali \n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +94,6 @@ msgstr "রিলিজ হালনাগাদ রিপোজিটরী স
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
-#| msgid "Scanning the release updates repository..."
 msgid "Scanning the backports repository..."
 msgstr "রিলিজ হালনাগাদ রিপোজিটরী স্ক্যান করা হচ্ছে..."
 
@@ -210,7 +210,6 @@ msgstr "রিলিজ হালনাগাদ করুন"
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 #, fuzzy
-#| msgid "Use backported software?"
 msgid "backported software"
 msgstr "ব্যাকপোর্টকৃত সফটওয়্যার ব্যবহার করতে চান কি?"
 
@@ -264,11 +263,6 @@ msgstr ""
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
 #, fuzzy
-#| msgid ""
-#| "Some software has been backported from the development tree to work with "
-#| "this release. Although this software has not gone through such complete "
-#| "testing as that contained in the release, it includes newer versions of "
-#| "some applications which may provide useful features."
 msgid ""
 "Backported software are adapted from the development version to work with "
 "this release. Although this software has not gone through such complete "
@@ -426,10 +420,6 @@ msgstr "মিডিয়া পরিবর্তন"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
-#| msgid ""
-#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
-#| "and press enter."
 msgid ""
 "/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
