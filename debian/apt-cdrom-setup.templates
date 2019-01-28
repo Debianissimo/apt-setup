@@ -67,7 +67,7 @@ Type: text
 # This template uses the same text as used in the package apt for apt-cdrom
 # Do not translate "/cdrom/" (the mount point)
 _Description: Media change
- /cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/'
+ /cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/'
  and press enter.
 
 Template: finish-install/progress/apt-cdrom-setup

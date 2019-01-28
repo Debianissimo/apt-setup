@@ -1,3 +1,9 @@
+apt-setup (1:0.146) UNRELEASED; urgency=medium
+
+  * Fix missing space and superfluous colon in templates file.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 28 Jan 2019 22:14:06 +0100
+
 apt-setup (1:0.145) unstable; urgency=medium
   * Team upload
 
