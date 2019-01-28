@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dDz.po\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"POT-Creation-Date: 2019-01-28 21:20+0000\n"
 "PO-Revision-Date: 2012-02-29 04:41-0500\n"
 "Last-Translator: Jurmey Rabgay <jrabgay@dit.gov.bt>\n"
 "Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
@@ -406,8 +406,12 @@ msgstr "བརྡ་ལམ་གྱི་འགྱུར་བ་"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
+#, fuzzy
+#| msgid ""
+#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+#| "and press enter."
 msgid ""
-"/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+"/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
 "/cdrom/:ཁ་ཡིག་ཅན་གྱི་ཌིསཀི་བཙུགས་གནང་: '${LABEL}' འདི་འདྲེན་འཕྲུལ་ '/cdrom/' ནང་བཙུགས་ཏེ་ "
@@ -565,8 +569,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr "ཁྱོད་ཀྱིས་གང་རུང་སྦེ་ཐོབ་ཚུགས་བཟོ་ནི་ཨིན་ན་མེན་ན་གདམ་ཁ་རྐྱབ་གནང་།"
 
@@ -610,8 +613,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001

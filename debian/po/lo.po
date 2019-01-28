@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lo\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"POT-Creation-Date: 2019-01-28 21:20+0000\n"
 "PO-Revision-Date: 2012-04-25 09:05+0700\n"
 "Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
 "Language-Team: Lao <lo@li.org>\n"
@@ -384,8 +384,12 @@ msgstr "ປ່ຽນແຜ່ນ"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
+#, fuzzy
+#| msgid ""
+#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+#| "and press enter."
 msgid ""
-"/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+"/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr "/cdrom/:ກະລຸນາໃສ່ແຜ່ນຊື່: '${LABEL}' ລົງໃນໄດຣ '/cdrom/' ແລ້ວກົດ enter"
 
@@ -536,8 +540,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr "ກະລຸນາເລືອກວ່າທ່ານຕ້ອງການຈະໃຫ້ມີຊອບແວຣເຫລົ່ານີ້ໄວ້ຕິດຕັ້ງຫລືບໍ່."
 
@@ -581,8 +584,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001

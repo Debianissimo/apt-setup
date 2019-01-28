@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"POT-Creation-Date: 2019-01-28 21:20+0000\n"
 "PO-Revision-Date: 2012-05-06 15:56+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: debian-l10n-eu@lists.debian.org\n"
@@ -409,8 +409,12 @@ msgstr "Euskarri aldaketa"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
+#, fuzzy
+#| msgid ""
+#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+#| "and press enter."
 msgid ""
-"/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+"/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
 "/cdrom/: sartu etiketa hau duen diskoa: '${LABEL}' '/cdrom/' gailuan eta "
@@ -568,8 +572,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr "Aukeratu eskuragarri izan nahi dituzun edo ez."
 
@@ -614,8 +617,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001

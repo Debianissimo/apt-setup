@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
-"POT-Creation-Date: 2015-11-20 22:01+0000\n"
+"POT-Creation-Date: 2019-01-28 21:20+0000\n"
 "PO-Revision-Date: 2014-04-04 22:07+0100\n"
 "Last-Translator: Tegegne Tefera <tefera@mekuria.com>\n"
 "Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
@@ -377,8 +377,12 @@ msgstr "ማኅደር ቀይር"
 #. This template uses the same text as used in the package apt for apt-cdrom
 #. Do not translate "/cdrom/" (the mount point)
 #: ../apt-cdrom-setup.templates:7001
+#, fuzzy
+#| msgid ""
+#| "/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+#| "and press enter."
 msgid ""
-"/cdrom/:Please insert the disc labeled: '${LABEL}' in the drive '/cdrom/' "
+"/cdrom/: Please insert the disc labeled '${LABEL}' in the drive '/cdrom/' "
 "and press enter."
 msgstr ""
 "/cdrom/:እባክዎ  '${LABEL}' ምልክት ያለበትን ሲዲ በመንጃው '/cdrom/' ውስጥ ይጨምሩና enterን ይጫኑ."
@@ -524,8 +528,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:2001
-#: ../apt-mirror-setup.templates-ubuntu:1001
+#: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
 msgstr "እባክዎ ብሆንም እንኳን እንዲኖርዎት ይፈልጉ እንደሆን ይምረጡ፡፡"
 
@@ -569,8 +572,7 @@ msgstr ""
 #. Description
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
-#: ../apt-mirror-setup.templates:3001
-#: ../apt-mirror-setup.templates-ubuntu:2001
+#: ../apt-mirror-setup.templates:3001 ../apt-mirror-setup.templates-ubuntu:2001
 #: ../apt-mirror-setup.templates-ubuntu:3001
 #: ../apt-mirror-setup.templates-ubuntu:4001
 #: ../apt-mirror-setup.templates-ubuntu:5001
