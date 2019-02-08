@@ -1,8 +1,17 @@
-apt-setup (1:0.146) UNRELEASED; urgency=medium
+apt-setup (1:0.146) unstable; urgency=medium
+  * Team upload
 
-  * Fix missing space and superfluous colon in templates file.
+  * Fix missing space and superfluous colon in templates file (and sync
+    translations).
 
- -- Holger Wansing <hwansing@mailbox.org>  Mon, 28 Jan 2019 22:14:06 +0100
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+  * Finnish (fi.po) by Juhani Numminen
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+  * Traditional Chinese (zh_TW.po) by Louies
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 08 Feb 2019 17:22:44 +0100
 
 apt-setup (1:0.145) unstable; urgency=medium
   * Team upload
