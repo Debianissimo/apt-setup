@@ -1,4 +1,4 @@
-apt-setup (1:0.147) UNRELEASED; urgency=medium
+apt-setup (1:0.147) unstable; urgency=medium
 
   [ Steve McIntyre ]
   * Tweak how media sets are used in generators/41cdset. Live and
