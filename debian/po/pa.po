@@ -21,12 +21,13 @@
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
 # Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
 # A S Alam <aalam@users.sf.net>, 2009, 2012, 2014, 2017.
+# Aman ALam <alam.yellow@gmail.com>, 2018, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2018-01-04 06:20+0000\n"
+"PO-Revision-Date: 2019-02-11 10:09+0000\n"
 "Last-Translator: Aman ALam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
@@ -365,7 +366,7 @@ msgstr "ਹੇਠ ਦਿੱਤੇ ਲੇਬਲ ਨਾਲ CD ਜਾਂ DVD ਨੂ
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
 msgid "Please replace it now if you wish to scan another CD or DVD."
-msgstr "ਜੇ ਤੁਸੀਂ ਹੋਰ CD ਜਾਂ DVD ਸਕੈਨ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਹੁਣ ਮੌਜੂਦ ਨੂੰ ਬਦਲ ਦਿਓ"
+msgstr "ਜੇ ਤੁਸੀਂ ਹੋਰ CD ਜਾਂ DVD ਸਕੈਨ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਹੁਣ ਮੌਜੂਦ ਨੂੰ ਬਦਲ ਦਿਉ।"
 
 #. Type: boolean
 #. Description
