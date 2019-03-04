@@ -1,3 +1,12 @@
+apt-setup (1:0.148) unstable; urgency=medium
+  * Team upload
+
+  [ Updated translations ]
+  * Punjabi (pa.po) by Aman ALam
+  * Vietnamese (vi.po) by Trần Ngọc Quân
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 04 Mar 2019 23:09:07 +0100
+
 apt-setup (1:0.147) unstable; urgency=medium
 
   [ Steve McIntyre ]
