@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2017-01-02 23:26+0100\n"
+"PO-Revision-Date: 2019-03-20 22:31+0100\n"
 "Last-Translator: Anton Gladky <gladk@debian.org>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -570,7 +570,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates:2001 ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Please choose whether you want to have it available anyway."
-msgstr "Виберіть, чи хочете ви використовувати ці програми?"
+msgstr "Виберіть, чи хочете ви використовувати ці програми."
 
 #. Type: boolean
 #. Description
@@ -619,7 +619,7 @@ msgstr ""
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid ""
 "Please choose whether you want this software to be made available to you."
-msgstr "Вирішіть, чи хочете ви використовувати дане програмне забезпечення?"
+msgstr "Вирішіть, чи хочете ви використовувати дане програмне забезпечення."
 
 #. Type: select
 #. Choices
