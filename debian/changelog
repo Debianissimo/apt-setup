@@ -1,3 +1,21 @@
+apt-setup (1:0.151) UNRELEASED; urgency=medium
+
+  * When preseeding a local repository via apt-setup/localX/repository,
+    the repository key for Secure Apt needs to be configured with
+    apt-setup/localX/key. This key used to be set up with apt-key, but
+    its use is deprecated and apt's former dependency on gnupg has been
+    demoted to a Suggests, rendering apt-key non-functional in d-i.
+    Apply a patch by Lars Kollstedt (thanks!) which adds the repository
+    key(s) to /etc/apt/trusted.gpg.d, following the approach used by
+    pbuilder (Closes: #851774):
+     - .asc suffix if the key file seems to be armoured ASCII (i.e. it
+       contains a “-----BEGIN PGP PUBLIC KEY BLOCK-----” line);
+     - .gpg suffix otherwise. Please note that only “GPG key public ring”
+       are supported by APT, newer “keybox database” format isn't at the
+       moment.
+
+ -- Moritz Mühlenhoff <jmm@debian.org>  Thu, 11 Apr 2019 15:38:24 +0200
+
 apt-setup (1:0.150) unstable; urgency=medium
 
   * Team upload
