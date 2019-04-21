@@ -1,7 +1,7 @@
 apt-setup (1:0.150) UNRELEASED; urgency=medium
 
   * Remove Christian Perrier from Uploaders, with many thanks for all
-    his contributions over the years!
+    his contributions over the years! (Closes: #927494)
 
  -- Cyril Brulebois <kibi@debian.org>  Sat, 20 Apr 2019 22:30:28 +0200
 
