@@ -1,0 +1,39 @@
+---
+include:
+  - https://salsa.debian.org/salsa-ci-team/pipeline/raw/master/salsa-ci.yml
+  - https://salsa.debian.org/salsa-ci-team/pipeline/raw/master/pipeline-jobs.yml
+
+variables:
+  DOCKER_TLS_CERTDIR: ""
+  
+stages:
+  - build
+  - test
+  - deploy
+
+.disable-this: &disable-this
+  only:
+    variables:
+      - $UNDEFINED_VAR_TO_DISABLE_THIS
+
+piuparts:
+  #  pointless for udebs
+  <<: *disable-this
+
+reprotest:
+  # currently failing - FIXME
+  <<: *disable-this
+
+autopkgtest:
+  # currently have no tests - FIXME
+  <<: *disable-this
+
+trigger_b2r:
+  stage: deploy
+  script:
+    - apt-get update -y
+    - apt-get install -y curl
+    - export
+    - "curl --fail --silent -X POST -F token=${B2R_TOKEN} -F ref=master -F 'variables[TRIG_BUILD_REF_NAME]='${CI_BUILD_REF_NAME} -F 'variables[TRIG_BUILD_ID]='${CI_BUILD_ID} -F 'variables[TRIG_PIPELINE_ID]='${CI_PIPELINE_ID} -F 'variables[TRIG_PROJECT_NAME]='${CI_PROJECT_NAME} -F 'variables[TRIG_PROJECT_PATH]='${CI_PROJECT_PATH} -F 'variables[TRIG_JOB_ID]='${CI_JOB_ID} https://salsa.debian.org/api/v4/projects/philh%2Fbranch-to-repo/trigger/pipeline"
+  variables:
+    GIT_STRATEGY: none
