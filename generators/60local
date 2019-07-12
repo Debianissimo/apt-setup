@@ -35,7 +35,7 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 				else
 					name="apt-setup_local$i"
 				fi
-				if grep -q -- '-----BEGIN PGP PUBLIC KEY BLOCK-----' $ROOT/tmp/key$i.pub
+				if grep -q -- '-----BEGIN PGP PUBLIC KEY BLOCK-----' "$ROOT/tmp/key$i.pub"
 					then
 					mv "$ROOT/tmp/key$i.pub" "$ROOT/etc/apt/trusted.gpg.d/$name.asc"
 				else
