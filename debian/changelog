@@ -8,7 +8,7 @@ apt-setup (1:0.151) UNRELEASED; urgency=medium
     demoted to a Suggests, rendering apt-key non-functional in d-i.
     Apply a patch by Lars Kollstedt (thanks!) which adds the repository
     key(s) to /etc/apt/trusted.gpg.d, following the approach used by
-    pbuilder (Closes: #851774):
+    pbuilder (Closes: #851774, #928931):
      - .asc suffix if the key file seems to be armoured ASCII (i.e. it
        contains a “-----BEGIN PGP PUBLIC KEY BLOCK-----” line);
      - .gpg suffix otherwise. Please note that only “GPG key public ring”
