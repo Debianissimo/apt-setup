@@ -1,4 +1,4 @@
-apt-setup (1:0.151) UNRELEASED; urgency=medium
+apt-setup (1:0.151) unstable; urgency=medium
 
   [ Moritz Mühlenhoff ]
   * When preseeding a local repository via apt-setup/localX/repository,
@@ -20,7 +20,7 @@ apt-setup (1:0.151) UNRELEASED; urgency=medium
   * Hindi (hi.po) by KushagraKarira
   * Croatian (hr.po) by gogogogi
 
- -- Moritz Mühlenhoff <jmm@debian.org>  Thu, 11 Apr 2019 15:38:24 +0200
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 12 Jul 2019 10:49:08 +0200
 
 apt-setup (1:0.150) unstable; urgency=medium
 
