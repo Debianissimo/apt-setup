@@ -1,7 +1,7 @@
 ---
 include:
-  - https://salsa.debian.org/installer-team/di-salsa-pipeline/raw/master/salsa-ci.yml
-  - https://salsa.debian.org/installer-team/di-salsa-pipeline/raw/master/pipeline-jobs.yml
+  - https://salsa.debian.org/installer-team/branch2iso/raw/master/trigger_b2i.yml
 
 variables:
-  PIPELINE_DISABLE_JOBS: "reprotest autopkgtest"
+  SALSA_CI_DISABLE_AUTOPKGTEST: 1
+  SALSA_CI_DISABLE_REPROTEST: 1
