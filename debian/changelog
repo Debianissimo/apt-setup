@@ -5,6 +5,12 @@ apt-setup (1:0.152) UNRELEASED; urgency=medium
   [ Updated translations ]
   * Hebrew (he.po) by Yaron Shahrabani
 
+  [ Cyril Brulebois ]
+  * Add a Salsa CI config.
+
+  [ Philip Hands ]
+  * Update the Salsa CI config.
+
   [ Karsten Merker ]
   * Enable the "unreleased" suite for architectures in the Debian-Ports
     archive when configuring a network mirror.
