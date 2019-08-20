@@ -1,4 +1,4 @@
-apt-setup (1:0.152) UNRELEASED; urgency=medium
+apt-setup (1:0.152) unstable; urgency=medium
 
   * Team upload.
 
@@ -15,7 +15,7 @@ apt-setup (1:0.152) UNRELEASED; urgency=medium
   * Enable the "unreleased" suite for architectures in the Debian-Ports
     archive when configuring a network mirror.
 
- -- Karsten Merker <merker@debian.org>  Wed, 14 Aug 2019 23:41:25 +0200
+ -- Karsten Merker <merker@debian.org>  Tue, 20 Aug 2019 23:28:43 +0200
 
 apt-setup (1:0.151) unstable; urgency=medium
 
