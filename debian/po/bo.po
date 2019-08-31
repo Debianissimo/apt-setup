@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2018-11-23 06:07+0000\n"
-"Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
+"PO-Revision-Date: 2019-08-28 18:09+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
 "Language: bo\n"
 "MIME-Version: 1.0\n"
@@ -290,8 +290,9 @@ msgstr "འོད་སྡེར་ནས་ཁ་སྣོན་གྱི་ཐ
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
+#, fuzzy
 msgid "Scan another CD or DVD?"
-msgstr "CD དམ DVD གཞན་ཞིག་འཚོལ་བཤེར་བྱེད་དགོས་སམ"
+msgstr "CD དམ DVD གཞན་ཞིག་འཚོལ་བཤེར་བྱེད་དགོས་སམ?"
 
 #. Type: boolean
 #. Description
@@ -507,8 +508,9 @@ msgstr "དྲ་ཚིགས་དེ་འཚོལ་བཤེར་བྱེ
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:2001
+#, fuzzy
 msgid "Use non-free software?"
-msgstr "སྤྱི་སྤྱོད་མིན་པའི་མཉེན་ཆས་སྤྱོད་དགོས་སམ"
+msgstr "སྤྱི་སྤྱོད་མིན་པའི་མཉེན་ཆས་སྤྱོད་དགོས་སམ?"
 
 #. Type: boolean
 #. Description
@@ -539,8 +541,9 @@ msgstr "གང་ལྟར་ཁྱོད་ཀྱིས་འདི་སྤྱ
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:3001
+#, fuzzy
 msgid "Use contrib software?"
-msgstr "ཞལ་འདེགས་ཡིན་པའི་མཉེན་ཆས་སྤྱོད་དགོས་སམ"
+msgstr "ཞལ་འདེགས་ཡིན་པའི་མཉེན་ཆས་སྤྱོད་དགོས་སམ?"
 
 #. Type: boolean
 #. Description
@@ -615,8 +618,9 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
+#, fuzzy
 msgid "Use a network mirror?"
-msgstr "དྲ་ཚིགས་ཤིག་སྤྱོད་དགོས་སམ"
+msgstr "དྲ་ཚིགས་ཤིག་སྤྱོད་དགོས་སམ?"
 
 #. Type: boolean
 #. Description

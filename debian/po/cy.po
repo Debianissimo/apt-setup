@@ -21,8 +21,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-01-28 21:20+0000\n"
-"PO-Revision-Date: 2018-03-19 21:51+0000\n"
-"Last-Translator: Huw Waters <huwwaters@gmail.com>\n"
+"PO-Revision-Date: 2019-08-28 18:10+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: Welsh <>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
@@ -705,8 +705,9 @@ msgstr ""
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
+#, fuzzy
 msgid "Use software from the \"universe\" component?"
-msgstr "Defnyddiwch meddalwedd o'r cydran \"universe\""
+msgstr "Defnyddiwch meddalwedd o'r cydran \"universe\"?"
 
 #. Type: boolean
 #. Description
@@ -727,8 +728,9 @@ msgstr ""
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
+#, fuzzy
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Defnyddiwch meddalwedd o'r cydran \"multiverse\""
+msgstr "Defnyddiwch meddalwedd o'r cydran \"multiverse\"?"
 
 #. Type: boolean
 #. Description
@@ -774,8 +776,9 @@ msgstr ""
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
+#, fuzzy
 msgid "Use backported software?"
-msgstr "Defnyddiwch meddalwedd ôl-borth"
+msgstr "Defnyddiwch meddalwedd ôl-borth?"
 
 #. Type: boolean
 #. Description
