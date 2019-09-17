@@ -1,3 +1,9 @@
+apt-setup (1:0.153) UNRELEASED; urgency=medium
+
+  * Rephrase templates, to rename "CD"/"CD-ROM" into "installation media".
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 16 Sep 2019 20:56:57 +0200
+
 apt-setup (1:0.152) unstable; urgency=medium
 
   * Team upload.
