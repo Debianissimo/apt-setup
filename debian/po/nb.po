@@ -13,6 +13,7 @@
 # Bjørn Steensrud <bjornst@powertech.no>, 2004-2007.
 # Hans Fredrik Nordhaug <hans@nordhaug.priv.no>, 2005, 2007-2015.
 # Petter Reinholdtsen <pere@hungry.com>, 2017.
+# Allan Nordhøy <epost@anotheragency.no>, 2019.
 #
 # Translations from iso-codes:
 #
@@ -34,7 +35,7 @@ msgstr ""
 "Project-Id-Version: nb\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-19 16:20+0000\n"
-"PO-Revision-Date: 2019-08-19 04:24+0000\n"
+"PO-Revision-Date: 2019-10-15 04:52+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
@@ -294,7 +295,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:1001
 #, fuzzy
 msgid "Scanning the installation media..."
-msgstr "Fullfører installasjonen"
+msgstr "Leter gjennom installasjonsmediet…"
 
 #. Type: error
 #. Description
@@ -310,12 +311,11 @@ msgstr "problem med apt-oppsettet"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:2001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid ""
 "An attempt to configure apt to install additional packages from the media "
 "failed."
 msgstr ""
-"Et forsøk på å sette opp apt til å installere flere pakker fra CD mislyktes."
+"Et forsøk på å sette opp apt til å installere flere pakker fra mediet feilet."
 
 #. Type: boolean
 #. Description
@@ -331,9 +331,8 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Scan extra installation media?"
-msgstr "Klarte ikke å installere SILO"
+msgstr "Søke etter ekstra installasjonsmedie?"
 
 #. Type: boolean
 #. Description
