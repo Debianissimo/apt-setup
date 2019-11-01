@@ -1,3 +1,10 @@
+apt-setup (1:0.154) UNRELEASED; urgency=medium
+
+  * Update apt sources lines for security from <dist>/updates to
+    <dist>-security. (Closes: #942238)
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 12 Oct 2019 21:41:47 +0200
+
 apt-setup (1:0.153) unstable; urgency=medium
 
   * Team upload.
