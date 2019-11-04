@@ -1,9 +1,10 @@
 apt-setup (1:0.154) UNRELEASED; urgency=medium
 
-  * Update apt sources lines for security from <dist>/updates to
-    <dist>-security. (Closes: #942238)
+  * Update generation of apt sources lines for security (starting with
+    bullseye, that changed from <dist>/updates to <dist>-security).
+    Thanks to Philip Hands for the patch! (Closes: #935540, #942238)
 
- -- Holger Wansing <hwansing@mailbox.org>  Sat, 12 Oct 2019 21:41:47 +0200
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 04 Nov 2019 23:44:28 +0100
 
 apt-setup (1:0.153) unstable; urgency=medium
 

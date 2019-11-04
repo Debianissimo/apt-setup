@@ -28,8 +28,15 @@ for dist in contrib non-free; do
 	fi
 done
 
+# Starting with bullseye, /updates became -security:
+case "$codename" in
+	squeeze|wheezy|jessie|stretch|buster)
+		security_codename="$codename/updates"  ;;
+	*)	security_codename="$codename-security" ;;
+esac
+
 # Don't test mirror if no network selected in netcfg
-echo "deb http://$host/debian-security $codename-security $dists" >> $file
+echo "deb http://$host/debian-security $security_codename $dists" >> $file
 if db_get netcfg/dhcp_options && \
    [ "$RET" = "Do not configure the network at this time" ]; then
 	CODE=9
@@ -52,6 +59,6 @@ if [ "$RET" = false ]; then
 	deb_src="# deb-src"
 fi
 
-echo "$deb_src http://$host/debian-security $codename-security $dists" >> $file
+echo "$deb_src http://$host/debian-security $security_codename $dists" >> $file
 
 exit $CODE
