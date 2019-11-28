@@ -1,10 +1,11 @@
-apt-setup (1:0.154) UNRELEASED; urgency=medium
+apt-setup (1:0.154) unstable; urgency=medium
 
+  [ Holger Wansing ]
   * Update generation of apt sources lines for security (starting with
     bullseye, that changed from <dist>/updates to <dist>-security).
     Thanks to Philip Hands for the patch! (Closes: #935540, #942238)
 
- -- Holger Wansing <hwansing@mailbox.org>  Mon, 04 Nov 2019 23:44:28 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 28 Nov 2019 10:56:04 +0100
 
 apt-setup (1:0.153) unstable; urgency=medium
 
