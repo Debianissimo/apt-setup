@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2019-09-20 19:27+0000\n"
+"PO-Revision-Date: 2019-11-27 22:05+0000\n"
 "Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
@@ -467,12 +467,13 @@ msgstr ""
 #. :sl1:
 #. The value of %i can be from 4 to 8
 #: ../apt-cdrom-setup.templates:13001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"您已经扫描了 %i 张 CD。虽然其中包含了很大一部分软件包，但是仍然可能有所遗漏。"
+"您已经扫描了 %i 份镜像。虽然其中包含了很大一部分软件包，但是仍然可能有所遗"
+"漏。"
 
 #. Type: text
 #. Description
@@ -487,12 +488,11 @@ msgstr "注意使用镜像将导致在下一步安装过程中下载大量的数
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:15001
-#, fuzzy
 msgid ""
 "You are installing from a DVD image. Even though it contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"您正在从 DVD 进行安装。虽然 DVD 里包含了很大一部分软件包，但是仍然可能有所遗"
+"您正在从 DVD 镜像进行安装。虽然它提供了很大一部分软件包，但是仍然可能有所遗"
 "漏。"
 
 #. Type: text
@@ -646,12 +646,11 @@ msgstr "使用网络镜像吗？"
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
-#, fuzzy
 msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the installation media. This may also make newer versions of software "
 "available."
-msgstr "网络镜像可以用来补充光盘所带的软件，也可以用来提供较新版本的软件。"
+msgstr "网络镜像可以用来补充安装媒体所带的软件，也可以用来提供较新版本的软件。"
 
 #. Type: boolean
 #. Description
