@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2018-12-16 11:12+0000\n"
+"PO-Revision-Date: 2019-12-05 21:45+0000\n"
 "Last-Translator: Filipovic Dragan <filipovic@tutanota.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
@@ -285,9 +285,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
-#, fuzzy
 msgid "Scanning the installation media..."
-msgstr "Завршавање инсталације"
+msgstr "Скенирање инсталационог медија..."
 
 #. Type: error
 #. Description
@@ -303,13 +302,12 @@ msgstr "проблем са конфигурисањем apt-а"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:2001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid ""
 "An attempt to configure apt to install additional packages from the media "
 "failed."
 msgstr ""
-"Покушај да се исконфигурише apt да би инсталирао додатне пакетеса CD-а није "
-"успео."
+"Покушај да се исконфигурише apt да би инсталирао додатне пакете са медија "
+"није успео."
 
 #. Type: boolean
 #. Description
@@ -325,32 +323,30 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Scan extra installation media?"
-msgstr "SILO инсталација није успела"
+msgstr "Скенирај додатни инсталациони медиј?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Scanning your installation media finds the label:"
-msgstr ""
+msgstr "Скенирањем вашег инстал. медија пронађена је налепница:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
-#, fuzzy
 msgid ""
 "You now have the option of scanning additional media for use by the package "
 "manager (apt). Normally these should be from the same set as the one you "
 "booted from. If you do not have any additional media, this step can just be "
 "skipped."
 msgstr ""
-"Сада имате могућност да скенирате додатне CD-eве или DVD-eве које користи "
-"управљач пакетима (програм „apt“). Обично су ови CD-eви и DVD-eви из истог "
-"сета као и инсталациони CD/DVD. Ако немате никаквих додатних CD-eва или DVD-"
-"eва онда можете једноставно прескочити овај корак."
+"Сада имате могућност да скенирате додатне медије које користи управљач "
+"пакетима (програм (apt). Обично би требало да су из истог сета као већ "
+"подигнути. Ако немате никаквих додатних медија онда можете једноставно "
+"прескочити овај корак."
 
 #. Type: boolean
 #. Description
@@ -359,41 +355,36 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "If you wish to scan more media, please insert another one now."
-msgstr "Ако желите да скенирате неки други CD или DVD, убаците га сада."
+msgstr "Ако желите да скенирате више медија, убаците их сада."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "The image with the following label has been scanned:"
-msgstr "Скениран је CD или DVD са следећом ознаком:"
+msgstr "Скенирана је слика са следећом ознаком:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "The image with the following label has already been scanned:"
-msgstr "CD или DVD са следећом ознаком је већ претходно био скениран:"
+msgstr "Слика са следећом ознаком је већ претходно била скенирана:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "Please replace it now, if you wish to scan another."
-msgstr "Замените га одмах уколико желите да скенирате неки други CD или DVD."
+msgstr "Замените га одмах уколико желите поново да скенирате."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Please check that the media has been inserted correctly."
-msgstr "Проверите да ли је CD/DVD исправно убачен."
+msgstr "Проверите да ли је медиј исправно убачен."
 
 #. Type: text
 #. Description
@@ -406,11 +397,8 @@ msgstr "Замена медијума"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
 msgid "Please insert the media labeled '${LABEL}' and press enter."
-msgstr ""
-"/cdrom/: Убаците диск означен као „${LABEL}“ у уређај „/cdrom/“ и притисните "
-"тастер ENTER."
+msgstr "Убаците медиј означен као '${LABEL}' и притисните тастер enter."
 
 #. Type: text
 #. Description
@@ -427,63 +415,60 @@ msgstr "Искључивање „netinst“ CD у „sources.list“ фајлу
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:9001 ../apt-mirror-setup.templates:6001
-#, fuzzy
 msgid ""
 "If you are installing from a netinst CD image and choose not to use a "
 "mirror, you will end up with only a very minimal base system."
 msgstr ""
-"Ако инсталирате са „netinst“ CD-а и одаберете да не користите мирор, на "
+"Ако инсталирате са netinst CD слике и одаберете да не користите мирор, на "
 "крају ћете остати са веома минималним основним системом."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:10001
-#, fuzzy
 msgid ""
 "You are installing from a netinst CD image, which by itself only allows "
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Инсталирате са „netinst“ CD-а који обезбеђује само инсталирање врло "
-"минималног основног система. Да би сте инсталирали комплетнији систем "
-"користите мирор."
+"Инсталирате са netinst CD-а који обезбеђује само инсталирање врло минималног "
+"основног система. Да би сте инсталирали комплетнији систем користите мирор."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:11001
-#, fuzzy
 msgid ""
 "You are installing from an image which contains a limited selection of "
 "packages."
-msgstr "Инсталирате са CD-а који садржи ограничен избор пакета."
+msgstr "Инсталирате са слике која садржи ограничен избор пакета."
 
 #. Type: text
 #. Description
 #. :sl1:
 #. The value of %i can be 2 or 3
 #: ../apt-cdrom-setup.templates:12001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a fair selection of "
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Скенирали сте %i CD-а. Иако они садрже добар избор пакета, неки пакети можда "
-"недостају (посебно они потребни за подршку другим језицима осим енглеског)."
+"Скенирали сте %i слике. Иако они садрже добар избор пакета, неки пакети "
+"можда недостају (посебно они потребни за подршку другим језицима осим "
+"енглеског)."
 
 #. Type: text
 #. Description
 #. :sl1:
 #. The value of %i can be from 4 to 8
 #: ../apt-cdrom-setup.templates:13001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Скенирали сте %i CD-ова. Иако они садрже велики избор пакета, неки пакети "
+"Скенирали сте %i слике. Иако они садрже велики избор пакета, неки пакети "
 "можда недостају."
 
 #. Type: text
@@ -501,12 +486,11 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:15001
-#, fuzzy
 msgid ""
 "You are installing from a DVD image. Even though it contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Инсталирате са DVD-а. Иако DVD садржи велики избор пакета, неки пакети можда "
+"Инсталирате са DVD слике. Иако садржи велики избор пакета, неки пакети можда "
 "недостају."
 
 #. Type: text
@@ -662,14 +646,13 @@ msgstr "Користити мрежни мирор?"
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
-#, fuzzy
 msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the installation media. This may also make newer versions of software "
 "available."
 msgstr ""
-"Мрежни мирор се може употребити да замени софтвер који је укључен на CD-у. "
-"Може такође обезбедити новије верзије софтвера."
+"Мрежни мирор се може употребити да замени софтвер који је укључен на "
+"инсталационом медију. Може такође обезбедити новије верзије софтвера."
 
 #. Type: boolean
 #. Description
