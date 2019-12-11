@@ -14,13 +14,14 @@
 # Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
 # localuser <sampadanakhare@gmail.com>, 2015.
 # Nayan Nakhare <nayannakhare@rediffmail.com>, 2018.
+# Prachi Joshi <josprachi@yahoo.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2018-10-07 18:30+0000\n"
-"Last-Translator: Nayan Nakhare <nayannakhare@rediffmail.com>\n"
+"PO-Revision-Date: 2019-12-11 16:47+0000\n"
+"Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: CDAC_DI\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
@@ -270,9 +271,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
-#, fuzzy
 msgid "Scanning the installation media..."
-msgstr "अधिष्ठापना पूर्ण करत आहे"
+msgstr "इंस्टॉलेशन मीडिया स्कॅन करीत आहे ..."
 
 #. Type: error
 #. Description
@@ -288,12 +288,11 @@ msgstr "ऍप्ट संरचनेत समस्या"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:2001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid ""
 "An attempt to configure apt to install additional packages from the media "
 "failed."
 msgstr ""
-"सीडी मधून अतिरिक्त पॅकेजेस् अधिष्ठापित करण्यासाठी ऍप्ट संरचित करण्याचा प्रयत्न अयशस्वी "
+"माध्यमांकडून अतिरिक्त पॅकेजेस स्थापित करण्यासाठी apt कॉन्फिगर करण्याचा प्रयत्न अयशस्वी "
 "झाला."
 
 #. Type: boolean
@@ -310,16 +309,15 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Scan extra installation media?"
-msgstr "सिलो अधिष्ठापना अयशस्वी"
+msgstr "अतिरिक्त इंस्टॉलेशन मीडिया स्कॅन करायचा?"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Scanning your installation media finds the label:"
-msgstr ""
+msgstr "आपला इंस्टॉलेशन मीडिया स्कॅन केल्यावर हे लेबल आढळते:"
 
 #. Type: boolean
 #. Description
