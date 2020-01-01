@@ -1,3 +1,9 @@
+apt-setup (1:0.155) UNRELEASED; urgency=medium
+
+  * generators/50mirror: unreleased does not support sources yet.
+
+ -- Samuel Thibault <sthibault@debian.org>  Wed, 01 Jan 2020 23:08:57 +0100
+
 apt-setup (1:0.154) unstable; urgency=medium
 
   [ Holger Wansing ]

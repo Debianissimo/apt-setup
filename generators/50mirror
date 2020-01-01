@@ -285,5 +285,6 @@ fi
 
 echo "$deb_src $protocol://$hostname$directory $codename $dists" >> $file
 if [ -n "${use_unreleased}" ]; then
-	echo "$deb_src $protocol://$hostname$directory unreleased main" >> $file
+	echo "# 'unreleased' does not support sources yet" >> $file
+	echo "# $deb_src $protocol://$hostname$directory unreleased main" >> $file
 fi
