@@ -29,14 +29,15 @@
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
 # Boyuan Yang <073plan@gmail.com>, 2018, 2019.
+# 玉堂白鹤 <yjwork@qq.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2019-11-27 22:05+0000\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"PO-Revision-Date: 2020-01-18 06:21+0000\n"
+"Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -283,7 +284,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
 msgid "Scanning the installation media..."
-msgstr "正在扫描安装媒体……"
+msgstr "正在扫描安装介质……"
 
 #. Type: error
 #. Description
@@ -302,7 +303,7 @@ msgstr "Apt 设置问题"
 msgid ""
 "An attempt to configure apt to install additional packages from the media "
 "failed."
-msgstr "尝试配置 apt 从媒体安装额外的软件包失败。"
+msgstr "尝试配置 apt 从介质安装额外的软件包失败。"
 
 #. Type: boolean
 #. Description
@@ -319,29 +320,27 @@ msgstr "尝试配置 apt 从媒体安装额外的软件包失败。"
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan extra installation media?"
-msgstr "扫描额外的安装媒体？"
+msgstr "扫描额外的安装介质？"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Scanning your installation media finds the label:"
-msgstr ""
+msgstr "扫描您的安装介质时找到标签："
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
-#, fuzzy
 msgid ""
 "You now have the option of scanning additional media for use by the package "
 "manager (apt). Normally these should be from the same set as the one you "
 "booted from. If you do not have any additional media, this step can just be "
 "skipped."
 msgstr ""
-"现在您可以选择扫描其他 CD 或 DVD 以供软件包管理器 (apt) 使用。一般来说，这些 "
-"CD/DVD 是和安装 CD/DVD 在同一套里面的。如果您没有任何其他的 CD 或 DVD，可以直"
-"接跳过这一步。"
+"现在您可以选择扫描其他介质以供软件包管理器 (apt) 使用。一般来说，这些和您引导"
+"启动的在同一套里面。如果您没有任何其他的介质，可以直接跳过这一步。"
 
 #. Type: boolean
 #. Description
@@ -350,41 +349,36 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "If you wish to scan more media, please insert another one now."
-msgstr "如果您想要扫描其他 CD 或 DVD，现在请将其插入。"
+msgstr "如果您想要扫描更多介质，请立即插入另一个。"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "The image with the following label has been scanned:"
-msgstr "已经扫描了有下列标记的 CD 或 DVD："
+msgstr "已经扫描了有下列标记的镜像："
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "The image with the following label has already been scanned:"
-msgstr "下列标记的 CD 或 DVD 之前已经扫描过了："
+msgstr "下列标记的镜像之前已经扫描过了："
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "Please replace it now, if you wish to scan another."
-msgstr "如果您想要扫描其他的 CD 或 DVD，现在请将其替换。"
+msgstr "如果您想要扫描其他的，现在请将其替换。"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Please check that the media has been inserted correctly."
-msgstr "请确保 CD/DVD 已被正确插入。"
+msgstr "请确保介质已被正确插入。"
 
 #. Type: text
 #. Description
@@ -397,10 +391,8 @@ msgstr "更换介质"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
 msgid "Please insert the media labeled '${LABEL}' and press enter."
-msgstr ""
-"/cdrom/：请将标记为“${LABEL}”的光盘插入驱动器 /cdrom/ 中，然后按下 Enter。"
+msgstr "请将标记为“${LABEL}”的介质插入，然后按下 Enter。"
 
 #. Type: text
 #. Description
@@ -417,50 +409,47 @@ msgstr "正在 sources.list 里禁用 netinst CD..."
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:9001 ../apt-mirror-setup.templates:6001
-#, fuzzy
 msgid ""
 "If you are installing from a netinst CD image and choose not to use a "
 "mirror, you will end up with only a very minimal base system."
 msgstr ""
-"如果您正在用网络安装 (netinst) 光盘进行安装并且选择不使用镜像，您将只能装上一"
-"个非常小的基本系统。"
+"如果您正在用网络安装 (netinst) CD 镜像进行安装并且选择不使用镜像站点，您将只"
+"能装上一个非常小的基本系统。"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:10001
-#, fuzzy
 msgid ""
 "You are installing from a netinst CD image, which by itself only allows "
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"您正在从网络安装 (netinst) 光盘进行安装，而网络安装光盘只能安装一个非常小的基"
-"本系统。您可以使用镜像来安装一个更完备的系统。"
+"您正在从网络安装 (netinst) 光盘镜像进行安装，而网络安装光盘只能安装一个非常小"
+"的基本系统。您可以使用镜像来安装一个更完备的系统。"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:11001
-#, fuzzy
 msgid ""
 "You are installing from an image which contains a limited selection of "
 "packages."
-msgstr "您正在从 CD 进行安装，而其中只包含有限的一部分软件包。"
+msgstr "您正在从镜像进行安装，而其中只包含有限的一部分软件包。"
 
 #. Type: text
 #. Description
 #. :sl1:
 #. The value of %i can be 2 or 3
 #: ../apt-cdrom-setup.templates:12001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a fair selection of "
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"您已经扫描了 %i 张 CD。虽然其中包含了相当多的软件包，但是仍然可能缺少一些 (特"
-"别是那些用于支持英语以外的语言的软件包)。"
+"您已经扫描了 %i 个镜像。虽然其中包含了相当多的软件包，但是仍然可能缺少一些 "
+"(特别是那些用于支持英语以外的语言的软件包)。"
 
 #. Type: text
 #. Description
@@ -650,7 +639,7 @@ msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the installation media. This may also make newer versions of software "
 "available."
-msgstr "网络镜像可以用来补充安装媒体所带的软件，也可以用来提供较新版本的软件。"
+msgstr "网络镜像可以用来补充安装介质所带的软件。也可以用来提供较新版本的软件。"
 
 #. Type: boolean
 #. Description
