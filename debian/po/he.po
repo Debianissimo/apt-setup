@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2019-10-12 16:52+0000\n"
+"PO-Revision-Date: 2020-01-25 21:22+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -686,7 +686,7 @@ msgstr "לא נבחר אתר מראה."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "להשתמש בתוכנה מוגבלת ?"
+msgstr "להשתמש בתכנה מוגבלת?"
 
 #. Type: boolean
 #. Description
@@ -739,6 +739,7 @@ msgstr "להשתמש בתכניות מהרכיב „multiverse”?"
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
+#, fuzzy
 msgid ""
 "Some non-free software is available in packaged form. Though this software "
 "is not a part of the main distribution, standard package management tools "
