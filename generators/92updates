@@ -38,7 +38,7 @@ for dist in contrib non-free; do
 done
 
 # Don't test mirror if no network selected in netcfg
-echo "# ${codename}-updates, previously known as 'volatile'" >> $file
+echo "# ${codename}-updates, to get updates before a point release is made" >> $file
 
 if  [ -n "$protocol" ] && [ -n "$host" ]; then
 	echo "deb $protocol://${host}${directory} ${codename}-updates $dists" >> $file
