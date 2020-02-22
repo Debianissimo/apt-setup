@@ -32,8 +32,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2018-07-24 14:27+0000\n"
-"Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
+"PO-Revision-Date: 2020-02-22 10:35+0000\n"
+"Last-Translator: Mario\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -128,7 +128,7 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Kohaliku tarkvaraallika  ${MIRROR} allkirjastamiseks kasutatud avaliku võtme "
+"Kohaliku tarkvaraallika ${MIRROR} allkirjastamiseks kasutatud avaliku võtme "
 "allalaadimine nurjus:"
 
 #. Type: select
@@ -292,9 +292,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
-#, fuzzy
 msgid "Scanning the installation media..."
-msgstr "Paigaldamise lõpetamine"
+msgstr "Installikandjate skannimine ..."
 
 #. Type: error
 #. Description
@@ -340,7 +339,7 @@ msgstr "SILO paigaldamine nurjus"
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Scanning your installation media finds the label:"
-msgstr ""
+msgstr "Installikandja skannimisel leitakse silt:"
 
 #. Type: boolean
 #. Description
