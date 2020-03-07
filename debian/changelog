@@ -1,3 +1,15 @@
+apt-setup (1:0.156) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Updated translations ]
+  * Estonian (et.po) by Mario
+  * Galician (gl.po) by anonymous
+  * Lithuanian (lt.po) by Tautvydas Zukauskas
+  * Marathi (mr.po) by Prachi Joshi
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 07 Mar 2020 21:41:08 +0100
+
 apt-setup (1:0.155) unstable; urgency=medium
 
   * Team upload.
