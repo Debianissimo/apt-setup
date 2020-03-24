@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2020-01-25 21:22+0000\n"
+"PO-Revision-Date: 2020-03-13 14:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -739,7 +739,6 @@ msgstr "להשתמש בתכניות מהרכיב „multiverse”?"
 #. This template is used by the Ubuntu version of d-i.
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
-#, fuzzy
 msgid ""
 "Some non-free software is available in packaged form. Though this software "
 "is not a part of the main distribution, standard package management tools "
@@ -747,9 +746,9 @@ msgid ""
 "cases) patent restrictions which may prevent you from using, modifying, or "
 "sharing it."
 msgstr ""
-"מספר תוכנות לא חופשיות זמינות בצורת חבילות. למרות שתוכנה זאת אינה חלק מההפצה "
-"הראשית, ניתן להשתמש בכלים לניהול חבילות כדי להתקין אותה. לתוכנות אלה יש "
-"רישיונות שונים והגבלות פטנטים, שעלולים למנוע ממך להשתמש, לשנות או לחלוק אותן."
+"מספר תכניות לא חופשיות זמינות בצורת חבילות. למרות שתכנית זאת אינה חלק מההפצה "
+"הראשית, ניתן להשתמש בכלים לניהול חבילות כדי להתקין אותה. לתכניות אלו יש "
+"רישיונות שונים והגבלות פטנטים, שעלולים למנוע ממך להשתמש, לשנות או לשתף אותן."
 
 #. Type: boolean
 #. Description
