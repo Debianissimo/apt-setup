@@ -8,7 +8,7 @@
 # This translation is released under the same licence as the debian-installer.
 #
 # Siim Põder <siim@p6drad-teel.net>, 2007.
-# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018.
+# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018, 2020.
 #
 # Thanks to following Ubuntu Translators for review and fixes:
 #     Laur Mõtus
@@ -32,8 +32,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2020-02-22 10:35+0000\n"
-"Last-Translator: Mario\n"
+"PO-Revision-Date: 2020-04-12 08:11+0000\n"
+"Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
@@ -309,12 +309,11 @@ msgstr "Apt'i seadistamise tõrge"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:2001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid ""
 "An attempt to configure apt to install additional packages from the media "
 "failed."
 msgstr ""
-"Katse seadistada apt'i laserkettalt lisapakettide paigaldamiseks nurjus."
+"Katse seadistada apt'i paigaldusmeedialt lisapakettide paigaldamiseks nurjus."
 
 #. Type: boolean
 #. Description
@@ -330,9 +329,8 @@ msgstr ""
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Scan extra installation media?"
-msgstr "SILO paigaldamine nurjus"
+msgstr "Kas skannida täiendavat paigaldusmeediat?"
 
 #. Type: boolean
 #. Description
@@ -345,16 +343,16 @@ msgstr "Installikandja skannimisel leitakse silt:"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
-#, fuzzy
 msgid ""
 "You now have the option of scanning additional media for use by the package "
 "manager (apt). Normally these should be from the same set as the one you "
 "booted from. If you do not have any additional media, this step can just be "
 "skipped."
 msgstr ""
-"Nüüd võid skaneerida lisaplaate, mida paketihaldur (apt) võib kasutada. "
-"Tavaliselt on see paigaldusplaatide komplekt. Kui sul ei ole teisi plaate, "
-"võid selle sammu vahele jätta."
+"Nüüd on võimalik skannida täiendavat paigaldusmeediat, mida paketihaldur "
+"(apt) saab kasutada. Tavaliselt peaksid need olema samast komplektist, "
+"millelt sa tegid alglaadimise. Kui sul puudub täiendav meedia, siis võid "
+"jätta selle sammu vahele."
 
 #. Type: boolean
 #. Description
@@ -363,41 +361,37 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "If you wish to scan more media, please insert another one now."
-msgstr "Kui tahad veel mõnda plaati skaneerida, sisesta see praegu."
+msgstr ""
+"Kui soovid veel mõnda paigaldusmeediat skannida, siis sisesta see nüüd."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "The image with the following label has been scanned:"
-msgstr "Järgmise nimetusega plaati skanniti:"
+msgstr "Skanniti järgmise nimetusega tõmmist:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "The image with the following label has already been scanned:"
-msgstr "Järgmise nimega plaadid on juba skannitud:"
+msgstr "Järgmise nimega tõmmis on juba skannitud:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "Please replace it now, if you wish to scan another."
-msgstr "Kui sa tahad skaneerida veel mõnd plaati, sisesta see praegu."
+msgstr "Kui sa tahad skaneerida veel midagi, sisesta see nüüd."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Please check that the media has been inserted correctly."
-msgstr "Palun veendu, et oled CD/DVD-plaadi korrektselt sisestanud."
+msgstr "Palun veendu, et paigaldusmeedia on korrektselt sisestanud."
 
 #. Type: text
 #. Description
@@ -410,11 +404,9 @@ msgstr "Meediumi vahetus"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
 msgid "Please insert the media labeled '${LABEL}' and press enter."
 msgstr ""
-"/cdrom/: Palun sisesta plaat nimega '${LABEL}' ajamisse '/cdrom/' ja vajuta "
-"enter klahvi."
+"Palun sisesta meedia nimega '${LABEL}' ajamisse ja vajuta enter klahvi."
 
 #. Type: text
 #. Description
@@ -431,62 +423,60 @@ msgstr "Netipaigalduse plaadi keelamine failis sources.list..."
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:9001 ../apt-mirror-setup.templates:6001
-#, fuzzy
 msgid ""
 "If you are installing from a netinst CD image and choose not to use a "
 "mirror, you will end up with only a very minimal base system."
 msgstr ""
-"Kui sa paigaldad netipaigalduse plaadilt ja peeglit kasutusele ei võta, jääb "
-"sinu süsteem väga minimaalse alussüsteemi tasemele."
+"Kui sa paigaldad võrgupaigalduse plaaditõmmiselt ja peeglit kasutusele ei "
+"võta, jääb sinu süsteem väga minimaalse alussüsteemi tasemele."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:10001
-#, fuzzy
 msgid ""
 "You are installing from a netinst CD image, which by itself only allows "
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Sa paigaldad netipaigalduse plaadilt, mis võimaldab ainult väga minimaalse "
-"baassüsteemi paigalduse. Täielikuma süsteemi saamiseks kasuta peeglit."
+"Sa paigaldad netipaigalduse plaaditõmmiselt, mis võimaldab ainult väga "
+"minimaalse baassüsteemi paigalduse. Täielikuma süsteemi saamiseks kasuta "
+"peeglit."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:11001
-#, fuzzy
 msgid ""
 "You are installing from an image which contains a limited selection of "
 "packages."
-msgstr "Sa paigaldad CD-plaadilt, millel on väga piiratud paketivalik."
+msgstr "Sa paigaldad tõmmiselt, mille paketivalik on väga piiratud."
 
 #. Type: text
 #. Description
 #. :sl1:
 #. The value of %i can be 2 or 3
 #: ../apt-cdrom-setup.templates:12001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a fair selection of "
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Sa oled skanninud %i CD-plaati. Kuigi need sisaldavad üsna suurt hulka "
-"pakette, võib miski puudu olla (olulisimana mitte-ingliskeele toepaketid)."
+"Sa oled skanninud %i tõmmist. Kuigi need sisaldavad üsna suurt hulka "
+"pakette, võib miski puudu olla (olulisimana mitte-ingliskeele toe paketid)."
 
 #. Type: text
 #. Description
 #. :sl1:
 #. The value of %i can be from 4 to 8
 #: ../apt-cdrom-setup.templates:13001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"Sa oled skanninud %i CD-plaati. Kuigi need sisaldavad suurt hulka pakette, "
+"Sa oled skanninud %i tõmmist. Kuigi need sisaldavad suurt hulka pakette, "
 "võib miski puudu olla."
 
 #. Type: text
@@ -504,13 +494,12 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:15001
-#, fuzzy
 msgid ""
 "You are installing from a DVD image. Even though it contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Sa paigaldad DVD-plaadilt. Kuigi DVD-l on lai paketivalik, võib midagi jääda "
-"puudu."
+"Sa paigaldad DVD-plaadilt. Kuigi sellel on lai paketivalik, võib midagi "
+"jääda puudu."
 
 #. Type: text
 #. Description
@@ -666,13 +655,12 @@ msgstr "Kas kasutada võrgupeeglit?"
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
-#, fuzzy
 msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the installation media. This may also make newer versions of software "
 "available."
 msgstr ""
-"Lisaks laserplaadil olevale tarkvarale on võimalik kasutusele võtta ka "
+"Lisaks paigaldusmeedial olevale tarkvarale on võimalik kasutusele võtta ka "
 "võrgupeeglis leiduv tarkvara. Võrgus võivad saadaval olla programmide uuemad "
 "versioonid."
 
