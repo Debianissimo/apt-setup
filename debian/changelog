@@ -1,3 +1,19 @@
+apt-setup (1:0.157) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Updated translations ]
+  * Estonian (et.po) by Kristjan Räts
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Croatian (hr.po) by gogogogi
+  * Korean (ko.po) by Changwoo Ryu
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Portuguese (Brazil) (pt_BR.po) by Adriano Rafael Gomes
+  * Romanian (ro.po) by Andrei POPESCU
+  * Tamil (ta.po) by Jeyanthinath MuthuRam
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 May 2020 23:37:46 +0200
+
 apt-setup (1:0.156) unstable; urgency=medium
 
   * Team upload.
