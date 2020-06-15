@@ -18,7 +18,7 @@ Description: Configure apt
 Package: apt-mirror-setup
 Package-Type: udeb
 Architecture: all
-Depends: choose-mirror-bin, ${misc:Depends}
+Depends: choose-mirror-bin, base-installer (>= 1.195), ${misc:Depends}
 Description: set up a mirror in sources.list
 
 Package: apt-cdrom-setup

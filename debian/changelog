@@ -1,3 +1,11 @@
+apt-setup (1:0.158) unstable; urgency=medium
+
+  [ наб ]
+  * apt-mirror-setup: Depend on base-installer (>= 1.195)
+  * generators/50mirror: Use is_ports_architecture from base-installer
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 15 Jun 2020 23:42:43 +0200
+
 apt-setup (1:0.157) unstable; urgency=medium
 
   * Team upload.
