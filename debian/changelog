@@ -1,4 +1,4 @@
-apt-setup (1:0.158) unstable; urgency=medium
+apt-setup (1:0.158) UNRELEASED; urgency=medium
 
   [ наб ]
   * apt-mirror-setup: Depend on base-installer (>= 1.195)
