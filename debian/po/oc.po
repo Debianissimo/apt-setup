@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2020-10-04 13:50+0200\n"
+"PO-Revision-Date: 2020-10-11 15:47+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -67,17 +67,15 @@ msgstr "Analisi del depaus de las mesas a jorn de seguretat..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
-#, fuzzy
 msgid "Scanning the release updates repository..."
-msgstr "Analisi del depaus dels paquets meses a jorn frequentament..."
+msgstr "Analisi del depaus de mesas a jorn de version..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "Analisi del depaus de las mesas a jorn de seguretat..."
+msgstr "Analisi del depaus dels logicials reportats..."
 
 #. Type: select
 #. Choices
@@ -281,7 +279,7 @@ msgstr "Analisi del mèdia d'installacion..."
 #. :sl2:
 #: ../apt-cdrom-setup.templates:2001
 msgid "apt configuration problem"
-msgstr "Fracàs de la configuracion de l'aisina de gestion dels paquets (APT)"
+msgstr "problèma de configuracion de l'aisina de gestion dels paquets (APT)"
 
 #. Type: error
 #. Description
