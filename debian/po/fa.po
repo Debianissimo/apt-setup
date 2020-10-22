@@ -8,6 +8,7 @@
 # This file is distributed under the same license as debian-installer.
 # Nima Sahraneshin <unix.nima@gmail.com>, 2018.
 # Seyed Hany Hosseini <hany1894@gmail.com>, 2020.
+# <soheilkhanalipur@tutanota.com>, 2020.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry - further translations from ICU-3.0
@@ -25,8 +26,8 @@ msgstr ""
 "Project-Id-Version: fa\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2020-07-01 07:41+0000\n"
-"Last-Translator: Reg3xp <reg3xp@protonmail.com>\n"
+"PO-Revision-Date: 2020-10-22 09:29+0000\n"
+"Last-Translator: Seyed Hany Hosseini <hany1894@gmail.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -236,9 +237,9 @@ msgid ""
 "service is only available for stable and oldstable releases."
 msgstr ""
 "به‌روزرسانی‌های انتشار، نسخه‌های جاری بیشتری برای نرم‌افزارهایی که بصورت نسبتا "
-"مکرر تغییر میکنند فراهم میکند و نداشتن آخرین نسخه،میتواند قابلیت استفاده "
-"نرم‌افزار  را کاهش دهد.آن‌ها همچنین ترمیم‌های رگرسیون را نیز فراهم میکنند.این "
-"سرویس،تنها برای انتشارهای پایدار و پایدار قدیمی، موجود است."
+"مکرر تغییر می‌کنند فراهم میکند و نداشتن آخرین نسخه، می‌تواند قابلیت استفاده "
+"نرم‌افزار را کاهش دهد. آن‌ها همچنین ترمیم‌های برگشتی را نیز فراهم می‌کنند.این "
+"سرویس، تنها برای انتشارهای پایدار و پایدار قدیمی، موجود است."
 
 #. Type: multiselect
 #. Description
@@ -252,13 +253,12 @@ msgid ""
 "not cause any of them to be installed by default; it only allows you to "
 "manually select backports to use."
 msgstr ""
-"نرم‌افزار انتقال داده‌شده به نسخه قبل، از نسخه در حال توسعه گرفته و سازگار "
-"شده‌اند تا با این انتشار کار کنند. \n"
-"این نرم‌افزارها آزمایش معمول را بشکل کامل پشت سر نگذاشته‌اند، اما شامل نسخه‌های "
-"جدید بعضی از نرم‌افزارهای کاربردی هستند که ممکن است امکانات قابل استفاده‌ای را "
-"فراهم نماید. فعال کردن این حالت باعث نمی‌شود تا هیچ‌کدام از آن‌ها بشکل پیش‌فرض "
-"نصب شوند و تنها به شما اجازه می‌دهد تا بشکل دستی آن‌ها را برای استفاده انتخاب "
-"کنید."
+"نرم‌افزار انتقال داده ‌شده به نسخه قبل، از نسخه در حال توسعه گرفته و سازگار "
+"شده‌اند تا با این انتشار کار کنند. این نرم‌افزارها آزمایش معمول را بشکل کامل "
+"پشت سر نگذاشته‌اند، اما شامل نسخه‌های جدید بعضی از نرم‌افزارهای کاربردی هستند "
+"که ممکن است امکانات قابل استفاده‌ای را فراهم نماید. فعال کردن این حالت باعث "
+"نمی‌شود تا هیچ‌کدام از آن‌ها بشکل پیش‌فرض نصب شوند و تنها به شما اجازه می‌دهد تا "
+"بشکل دستی آن‌ها را برای استفاده انتخاب کنید."
 
 #. Type: boolean
 #. Description
@@ -299,11 +299,10 @@ msgstr "مشکل پیکربندی apt"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:2001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid ""
 "An attempt to configure apt to install additional packages from the media "
 "failed."
-msgstr "تلاش برای پیکربندی apt برای نصب بسته‌های اضافی از CD شکست خورد."
+msgstr "تلاش برای پیکربندی apt برای نصب بسته‌های اضافی از رسانه نصب شکست خورد."
 
 #. Type: boolean
 #. Description
@@ -319,31 +318,29 @@ msgstr "تلاش برای پیکربندی apt برای نصب بسته‌های
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Scan extra installation media?"
-msgstr "نصب SILO نا موفق بود ."
+msgstr "بدنبال بررسی رسانه نصب اضافی باشم؟"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
 msgid "Scanning your installation media finds the label:"
-msgstr ""
+msgstr "با بررسی رسانه نصب شما این برچسب پیدا شد:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001
-#, fuzzy
 msgid ""
 "You now have the option of scanning additional media for use by the package "
 "manager (apt). Normally these should be from the same set as the one you "
 "booted from. If you do not have any additional media, this step can just be "
 "skipped."
 msgstr ""
-"شما اکنون این امکان معرفی سی دی یا دی‌وی‌دی‌های اضافه را به مدیر بسته‌ها (apt) "
-"دارید، که معمولا باید از یک مجموعه باشند. در صورتی که سی‌دی یا دی‌وی‌دی‌های "
-"اضافه را در دست ندارید می‌توانید از این بخش گذر کنید."
+"شما امکان بررسی رسانه‌های اضافی را دارید تا توسطرمدیر بسته‌ها (apt) استفاده "
+"شوند، این رسانه‌ها معمولا از سری نسخهٰ‌ای است که شما با استفاده از آن سیستم را "
+"بوت کرده‌اید. در صورتی که رسانه اضافه‌ای ندارید می‌توانید از این بخش گذر کنید."
 
 #. Type: boolean
 #. Description
@@ -352,44 +349,36 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "If you wish to scan more media, please insert another one now."
-msgstr ""
-"در صورتی که می‌خواهید سی دی یا دی وی دی دیگری معرفی کنید، آن را داخل درایو "
-"قرار دهید."
+msgstr "در صورتی که می‌خواهید رسانه دیگری معرفی کنید، آن را وارد کنید."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:4001
-#, fuzzy
 msgid "The image with the following label has been scanned:"
-msgstr "سی دی یا دی وی دی با این برچسب معرفی شد:"
+msgstr "رسانه‌ای با این برچسب شناسایی شد:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "The image with the following label has already been scanned:"
-msgstr "سی دی یا دی وی دی با این برچسب معرفی شد:"
+msgstr "رسانه‌ای با این برچسب هم‌اکنون شناسایی شد:"
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:5001
-#, fuzzy
 msgid "Please replace it now, if you wish to scan another."
-msgstr ""
-"لطفا اگر سی دی یا دی وی دی دیگری می‌خواهید معرفی کنید، داخل درایو قرار دهید."
+msgstr "لطفا اگر رسانه دیگری را می‌خواهید شناسایی کنید، آن را جایگزین کنید."
 
 #. Type: boolean
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:6001
-#, fuzzy
 msgid "Please check that the media has been inserted correctly."
-msgstr "مطمئن شوید CD/DVD به طور صحیح وارد شده است."
+msgstr "مطمئن شوید که رسانه به طور صحیح وارد شده است."
 
 #. Type: text
 #. Description
@@ -402,11 +391,10 @@ msgstr "رسانه عوض شد"
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:7001
-#, fuzzy
 msgid "Please insert the media labeled '${LABEL}' and press enter."
 msgstr ""
-"/cdrom/:لطفا دیسک با برچسب '${LABEL}'را در درایو '/cdrom/' وارد نمایید و "
-"کلید enter را فشار دهید."
+"/cdrom/:لطفا رسانه‌ای با برچسب '${LABEL}'را وارد نمایید و کلید enter را فشار "
+"دهید."
 
 #. Type: text
 #. Description
@@ -423,39 +411,36 @@ msgstr "غیر فعال کردن سی دی netinst در sources.list ..."
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:9001 ../apt-mirror-setup.templates:6001
-#, fuzzy
 msgid ""
 "If you are installing from a netinst CD image and choose not to use a "
 "mirror, you will end up with only a very minimal base system."
 msgstr ""
-"در صورتی که شما از طریق سی دی netinst نصب را آغاز کرده اید و هیچ آینه "
-"دریافتی را انتخاب نکرده اید، نتیجه نهایی پس از پایان نصب یک سیستم پایه و "
-"کوچک است."
+"در صورتی که شما نصب را از طریق تصویر سی دی netinst آغاز کرده اید و انتخاب "
+"کرده‌اید که از هیچ آینه‌ای نیز استفاده نشود، در پایان سامانه‌ای که برای شما نصب "
+"خواهد شد، بسیار کوچک با حداقل نیازمندی‌ها است."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:10001
-#, fuzzy
 msgid ""
 "You are installing from a netinst CD image, which by itself only allows "
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"شما از طریق سی دی netinst در حال نصب هستید، دراین حالت تنها اجازه نصب یک "
-"سیستم پایه در کوچک ترین حالت را دارید. از یکی از آینه های دریافت برای نصب یک "
-"سیستم عامل کاملتر استفاده کنید."
+"شما در حال نصب از طریق تصویر سی دی netinst هستید، دراین حالت تنها اجازه نصب "
+"یک سیستم پایه در کوچک ترین حالت را دارید. از یکی از آینه های دریافت برای نصب "
+"یک سیستم عامل کامل‌تر استفاده کنید."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:11001
-#, fuzzy
 msgid ""
 "You are installing from an image which contains a limited selection of "
 "packages."
 msgstr ""
-"شما از طریق سی دی در حال نصب هستید، که مجموعه ای محدود از بسته‌ها را شامل "
+"شما از طریق یک تصویر در حال نصب هستید، که مجموعه ای محدود از بسته‌ها را شامل "
 "می‌شود."
 
 #. Type: text
@@ -463,29 +448,29 @@ msgstr ""
 #. :sl1:
 #. The value of %i can be 2 or 3
 #: ../apt-cdrom-setup.templates:12001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a fair selection of "
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"شما %i سی دی را معرفی کرده اید. با آنکه به نظر می‌رسد مجموعه مناسبی از بسته‌ها "
-"را دراختیار داشته باشید، ممکن است کاستی هایی وجود داشته باشد (توجه داشته "
-"باشید که برای برخی از بسته ها نیاز است که زبان هایی به غیر از انگلیسی "
-"پشتیبانی شود)."
+"شما %i تصاویری را معرفی کرده اید. با آنکه به نظر می‌رسد مجموعه مناسبی از "
+"بسته‌ها را دراختیار داشته باشید، ممکن است کاستی‌هایی نیز وجود داشته باشد (توجه "
+"داشته باشید که برای برخی از بسته ها نیاز است که زبان‌هایی به غیر از انگلیسی "
+"پشتیبانی شوند)."
 
 #. Type: text
 #. Description
 #. :sl1:
 #. The value of %i can be from 4 to 8
 #: ../apt-cdrom-setup.templates:13001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a large selection of "
 "packages, some may be missing."
 msgstr ""
-"شما %i سی دی را معرفی کرده اید. با اینکه شامل مجوعه بزرگی از بسته‌ها است، با "
-"این وجود بعضی را ممکن است نداشته باشید."
+"شما %i تصاویری را معرفی کرده‌اید. با اینکه شامل مجوعه بزرگی از بسته‌ها است، با "
+"این وجود ممکن است شامل برخی بسته‌ها نیز نباشد."
 
 #. Type: text
 #. Description
@@ -502,13 +487,12 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:15001
-#, fuzzy
 msgid ""
 "You are installing from a DVD image. Even though it contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"شما از طریق دی‌وی‌دی در حال نصب هستید. با این که دی وی دی شامل مجموعه بزرگی از "
-"بسته‌هاست، ولی ممکن است برخی را در ختیار نداشته باشید."
+"شما از طریق یک تصویر دی‌وی‌دی در حال نصب هستید. با این که شامل مجموعه بزرگی از "
+"بسته‌ها است، ولی ممکن است برخی را در نیز نداشته باشید."
 
 #. Type: text
 #. Description
@@ -664,14 +648,13 @@ msgstr "از یک آینه دریافت تحت شبکه استفاده می‌ک
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:5001
-#, fuzzy
 msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the installation media. This may also make newer versions of software "
 "available."
 msgstr ""
-"یک آینه دریافت می‌تواند تکمیل کننده نرم افزارهای موجود بر روی سی دی باشد. "
-"همچنین نسخه های جدید نرم افزار از این طریق در دسترس هستند."
+"یک آینه در بستر شبکه می‌تواند تکمیل کننده نرم افزارهای موجود بر روی رسانه نصب "
+"باشد. همچنین کمک می‌کند نسخه‌های جدید نرم افزار نیز در دسترس باشند."
 
 #. Type: boolean
 #. Description
