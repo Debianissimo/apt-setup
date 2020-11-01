@@ -1,10 +1,23 @@
-apt-setup (1:0.160) UNRELEASED; urgency=medium
+apt-setup (1:0.160) unstable; urgency=medium
 
   [ Samuel Henrique ]
   * Remove mention of volatile repo from generated sources.list file.
     Closes: #954460
 
- -- ned <ned@t520>  Mon, 26 Oct 2020 08:58:31 +0100
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Greek (el.po) by Vangelis Skarmoutsos
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Persian (fa.po) by سهیل خانعلی‌پور
+  * Italian (it.po) by Milo Casagrande
+  * Marathi (mr.po) by Prachi Joshi
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+
+  [ New translations ]
+  * Kabyle (kab.po) by Slimane Selyan Amiri
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 01 Nov 2020 11:12:07 +0100
 
 apt-setup (1:0.159) unstable; urgency=medium
 
