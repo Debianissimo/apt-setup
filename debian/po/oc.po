@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2020-11-03 16:27+0000\n"
+"PO-Revision-Date: 2020-11-15 18:28+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -701,7 +701,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Cal utilizar los logicials del component « universe » ?"
+msgstr "Cal utilizar los logicials del compausant « universe » ?"
 
 #. Type: boolean
 #. Description
@@ -724,7 +724,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Cal utilizar los logicials del component « universe » ?"
+msgstr "Cal utilizar los logicials del compausant « universe » ?"
 
 #. Type: boolean
 #. Description
