@@ -1,3 +1,17 @@
+apt-setup (1:0.161) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * Hindi (hi.po) by षिखर्
+  * Kurdish (ku.po) by Lecwan Munzur
+  * Occitan (oc.po) by Quentin PAGÈS
+  * Russian (ru.po) by Yuri Kozlov
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 27 Dec 2020 19:34:30 +0100
+
 apt-setup (1:0.160) unstable; urgency=medium
 
   [ Samuel Henrique ]
