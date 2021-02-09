@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2021-01-22 11:58+0000\n"
+"PO-Revision-Date: 2021-02-09 18:59+0000\n"
 "Last-Translator: Vasudevan Tirumurti <agnihot3@gmail.com>\n"
 "Language-Team: Tamil <<gnome-tamil-translation@googlegroups.com>>\n"
 "Language: ta\n"
@@ -83,9 +83,8 @@ msgstr "வினியோக இற்றைப் படுத்தல் த
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "வினியோக இற்றைப் படுத்தல் தகவல் தளங்களை வருடுகிறது...."
+msgstr "கடந்தகால வினியோக தகவல் தளங்களை வருடுகிறது...."
 
 #. Type: select
 #. Choices
@@ -121,8 +120,8 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-" ${MIRROR} இல் உள்ளமை பெட்டகத்தில் கையொப்பமிட பயன்படும் பொது விசையை நிறுவியால் "
-"தரவிறக்க முடியவில்லை:"
+"${MIRROR} இல் உள்ளமை பெட்டகத்தில் கையொப்பமிட பயன்படும் பொது விசையை நிறுவியால் தரவிறக்க "
+"முடியவில்லை:"
 
 #. Type: select
 #. Description
@@ -261,7 +260,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "ஏபிடியில் மூல கிடங்குகளை செயலாக்கவா?"
 
 #. Type: boolean
 #. Description
@@ -273,6 +272,10 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"மூல பெட்டகங்கள் முன்னிருப்பாக /etc/apt/sources.list இல் (\"deb-src\"வரிகளுடன்) "
+"பட்டியலிடப்பட்டுள்ளன. ஆகவே \"apt-get source\" வேலை செய்யும். எனினும் இது உங்களுக்கு "
+"தேவையில்லை எனில் இந்த உள்ளீடுகளை செயலிழக்கச்செய்து \"apt-get update\" "
+"செயல்பாடுகளின்போது சற்றே அலைவரிசையை சேமிக்க முடியும்."
 
 #. Type: text
 #. Description
@@ -690,7 +693,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr " \"universe\" (ஓருலக) பகுதியிலிருந்து மென் பொருட்களை பயன்படுத்த வேண்டுமா?"
+msgstr "\"universe\" (ஓருலக) பகுதியிலிருந்து மென் பொருட்களை பயன்படுத்த வேண்டுமா?"
 
 #. Type: boolean
 #. Description
@@ -738,7 +741,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:4001
 msgid "Use software from the \"partner\" repository?"
-msgstr " \"partner\" (கூட்டாளி) பகுதியிலிருந்து மென் பொருட்களை பயன்படுத்த வேண்டுமா?"
+msgstr "\"partner\" (கூட்டாளி) பகுதியிலிருந்து மென் பொருட்களை பயன்படுத்த வேண்டுமா?"
 
 #. Type: boolean
 #. Description
