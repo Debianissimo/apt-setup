@@ -1,3 +1,15 @@
+apt-setup (1:0.163) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Arabic (ar.po) by zer0-x
+  * Norwegian Bokmal (nb.po) by Allan Nordhøy
+  * Serbian (sr.po) by Filipovic Dragan
+  * Traditional Chinese (zh_TW.po) by louies0623
+
+ -- ned <ned@t520>  Fri, 19 Mar 2021 17:17:17 +0100
+
 apt-setup (1:0.162) unstable; urgency=medium
 
   * Team upload
