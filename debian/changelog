@@ -1,3 +1,14 @@
+apt-setup (1:0.164) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Arabic (ar.po) by Fahim Sabah
+  * Persian (fa.po) by Sina Carnelious
+  * Japanese (ja.po) by YOSHINO Yoshihito
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 30 May 2021 22:00:54 +0200
+
 apt-setup (1:0.163) unstable; urgency=medium
 
   * Team upload
