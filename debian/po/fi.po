@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2021-07-12 20:33+0000\n"
+"PO-Revision-Date: 2021-07-17 08:34+0000\n"
 "Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
 "Language: fi\n"
@@ -88,7 +88,7 @@ msgstr "Tutkitaan julkaisupäivitysten varastoa..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Tutkitaan kehitysversiosta  vakaaseen tuotujen pakettien varastoa..."
+msgstr "Backports-arkiston skannaus..."
 
 #. Type: select
 #. Choices
