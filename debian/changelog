@@ -1,3 +1,12 @@
+apt-setup (1:0.166) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Finnish (fi.po) by Kimmo Kujansuu
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 23 Jul 2021 18:50:43 +0200
+
 apt-setup (1:0.165) unstable; urgency=medium
 
   * Team upload
