@@ -1,3 +1,9 @@
+apt-setup (1:0.167) UNRELEASED; urgency=medium
+
+  * Replace deprecated tempfile with mktemp.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 27 Aug 2021 21:50:20 +0200
+
 apt-setup (1:0.166) unstable; urgency=medium
 
   * Team upload
