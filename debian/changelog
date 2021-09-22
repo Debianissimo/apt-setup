@@ -1,8 +1,17 @@
-apt-setup (1:0.167) UNRELEASED; urgency=medium
+apt-setup (1:0.167) unstable; urgency=medium
 
+  * Team upload
+
+  [ Raphaël Hertzog ]
   * Replace deprecated tempfile with mktemp.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 27 Aug 2021 21:50:20 +0200
+  [ Philip Hands ]
+  * Switch to using branch2repo for Salsa CI.
+
+  [ Updated translations ]
+  * Vietnamese (vi.po) by Tran Dinh Hai
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 22 Sep 2021 20:12:18 +0200
 
 apt-setup (1:0.166) unstable; urgency=medium
 
