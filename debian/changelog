@@ -1,3 +1,11 @@
+apt-setup (1:0.168) UNRELEASED; urgency=medium
+
+  [ bauen1 ]
+  * Ensure target can validate https certificates when using the https
+    protocol for mirrors.
+
+ -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Jan 2022 22:34:25 +0100
+
 apt-setup (1:0.167) unstable; urgency=medium
 
   * Team upload
