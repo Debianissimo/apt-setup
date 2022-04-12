@@ -1,4 +1,6 @@
-apt-setup (1:0.168) UNRELEASED; urgency=medium
+apt-setup (1:0.168) unstable; urgency=medium
+
+  * Team upload
 
   [ bauen1 ]
   * Ensure target can validate https certificates when using the https
@@ -8,7 +10,17 @@ apt-setup (1:0.168) UNRELEASED; urgency=medium
   * Bump debhelper from deprecated 9 to 13.
   * Set debhelper-compat version in Build-Depends.
 
- -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Jan 2022 22:34:25 +0100
+  [ Updated translations ]
+  * Welsh (cy.po) by Ceiri Wyn Tudur
+  * Danish (da.po) by Joe Hansen
+  * German (de.po) by Holger Wansing
+  * Hungarian (hu.po) by Balázs Máhli
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Polish (pl.po) by Matthaiks
+  * Telugu (te.po) by Praveen Illa
+  * Ukrainian (uk.po) by Taras Panchenko
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 12 Apr 2022 23:09:41 +0200
 
 apt-setup (1:0.167) unstable; urgency=medium
 
