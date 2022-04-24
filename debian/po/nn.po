@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"PO-Revision-Date: 2022-04-23 23:30+0000\n"
 "Last-Translator: aujawindar <eivind.odegard@sogn.no>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -266,7 +266,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Bruk kjeldearkiv i APT?"
 
 #. Type: boolean
 #. Description
@@ -278,6 +278,10 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"Vanlegvis står kjeldearkiv i /etc/apt/sources.list-fila (med \"deb-src\" "
+"føre) slik at \"apt-get source\" verkar. Viss du ikkje treng denne "
+"funksjonen, kan du skru av kjeldeoppfringane og spara litt bandbreidd når du "
+"utfører \"apt-get update\"-handlingar."
 
 #. Type: text
 #. Description
