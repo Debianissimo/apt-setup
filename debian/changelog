@@ -1,3 +1,16 @@
+apt-setup (1:0.169) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Bosnian (bs.po) by Amar Tufo
+  * Basque (eu.po) by Gontzal Manuel Pujana Onaindia
+  * Norwegian Nynorsk (nn.po) by aujawindar
+  * Polish (pl.po) by Matthaiks
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 26 Jun 2022 12:33:15 +0200
+
 apt-setup (1:0.168) unstable; urgency=medium
 
   * Team upload
