@@ -1,3 +1,10 @@
+apt-setup (1:0.172) UNRELEASED; urgency=medium
+
+  * use [signed-by=...] for extra repository keys
+    (rather than just globally trusting them)
+
+ -- Philip Hands <phil@hands.com>  Sat, 22 Oct 2022 21:19:26 +0200
+
 apt-setup (1:0.171) unstable; urgency=medium
 
   [ Updated translations ]
