@@ -23,6 +23,7 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 	else
 		name="apt-setup_local$i"
 	fi
+	key_path=
 	if [ -n "$key" ]; then
 		# fetch the key
 		while :; do
@@ -34,7 +35,9 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 				else
 					ext="gpg"
 				fi
-				mv "$ROOT/tmp/key$i.pub" "$ROOT/etc/apt/trusted.gpg.d/$name.$ext"
+				key_path="/etc/apt/trusted.gpg.d/$name.$ext"
+				# move it into place
+				mv "$ROOT/tmp/key$i.pub" "$ROOT$key_path"
 				break
 			else
 				db_subst apt-setup/local/key-error MIRROR "${repository%% *}"
