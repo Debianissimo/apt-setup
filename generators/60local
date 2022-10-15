@@ -20,11 +20,6 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 	if [ -n "$comment" ]; then
 		echo "## $comment" >> $file
 	fi
-	echo "deb $repository" >> $file
-	# if true, add a line for deb-src
-	if db_get "apt-setup/local$i/source" && [ "$RET" = true ]; then
-		echo "deb-src $repository" >> $file
-	fi
 	if [ -n "$key" ]; then
 		# fetch the key
 		while :; do
@@ -54,6 +49,11 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 				fi
 			fi
 		done
+	fi
+	echo "deb $repository" >> $file
+	# if true, add a line for deb-src
+	if db_get "apt-setup/local$i/source" && [ "$RET" = true ]; then
+		echo "deb-src $repository" >> $file
 	fi
 	i="$(($i + 1))"
 done
