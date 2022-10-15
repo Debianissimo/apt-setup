@@ -19,17 +19,14 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 	echo >> $file
 	if [ -n "$comment" ]; then
 		echo "## $comment" >> $file
+		name=$(echo "$comment" | sed -E 's/[^0-9A-Za-z]+/_/g')
+	else
+		name="apt-setup_local$i"
 	fi
 	if [ -n "$key" ]; then
 		# fetch the key
 		while :; do
 			if fetch-url "$key" "$ROOT/tmp/key$i.pub"; then
-				# add it to the keyring
-				if [ -n "$comment" ]; then
-					name=$(echo "$comment" | sed -E 's/[^0-9A-Za-z]+/_/g')
-				else
-					name="apt-setup_local$i"
-				fi
 				# select extension for key file
 				if grep -q -- '-----BEGIN PGP PUBLIC KEY BLOCK-----' "$ROOT/tmp/key$i.pub"
 				then
