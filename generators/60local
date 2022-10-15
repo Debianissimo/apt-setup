@@ -5,10 +5,12 @@ set -e
 
 file="$1"
 
-i=-1
+i=-2
 while i="$(($i + 1))" || true; do
 	repo_name="local$i"
+	if [ $i -lt 0 ]; then repo_name="_DEVEL_"; fi
 	db_get "apt-setup/$repo_name/repository" && [ "$RET" ] || {
+		if [ $i -lt 0 ]; then continue; fi
 		break
 	}
 	repository="${RET#deb }"
