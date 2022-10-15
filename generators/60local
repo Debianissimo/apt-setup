@@ -30,12 +30,14 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 				else
 					name="apt-setup_local$i"
 				fi
+				# select extension for key file
 				if grep -q -- '-----BEGIN PGP PUBLIC KEY BLOCK-----' "$ROOT/tmp/key$i.pub"
-					then
-					mv "$ROOT/tmp/key$i.pub" "$ROOT/etc/apt/trusted.gpg.d/$name.asc"
+				then
+					ext="asc"
 				else
-					mv "$ROOT/tmp/key$i.pub" "$ROOT/etc/apt/trusted.gpg.d/$name.gpg"
+					ext="gpg"
 				fi
+				mv "$ROOT/tmp/key$i.pub" "$ROOT/etc/apt/trusted.gpg.d/$name.$ext"
 				break
 			else
 				db_subst apt-setup/local/key-error MIRROR "${repository%% *}"
