@@ -6,14 +6,18 @@ set -e
 file="$1"
 
 i=0
-while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
+while true; do
+	repo_name="local$i"
+	db_get "apt-setup/$repo_name/repository" && [ "$RET" ] || {
+		break
+	}
 	repository="${RET#deb }"
 	comment=
-	if db_get "apt-setup/local$i/comment"; then
+	if db_get "apt-setup/$repo_name/comment"; then
 		comment="$RET"
 	fi
 	key=
-	if db_get "apt-setup/local$i/key"; then
+	if db_get "apt-setup/$repo_name/key"; then
 		key="$RET"
 	fi
 	echo >> $file
@@ -21,7 +25,7 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 		echo "## $comment" >> $file
 		name=$(echo "$comment" | sed -E 's/[^0-9A-Za-z]+/_/g')
 	else
-		name="apt-setup_local$i"
+		name="apt-setup_$repo_name"
 	fi
 	key_path=
 	if [ -n "$key" ]; then
@@ -54,7 +58,7 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 	fi
 	echo "deb ${key_path:+[signed-by=$key_path]} $repository" >> $file
 	# if true, add a line for deb-src
-	if db_get "apt-setup/local$i/source" && [ "$RET" = true ]; then
+	if db_get "apt-setup/$repo_name/source" && [ "$RET" = true ]; then
 		echo "deb-src ${key_path:+[signed-by=$key_path]} $repository" >> $file
 	fi
 	i="$(($i + 1))"
