@@ -35,7 +35,7 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 				else
 					ext="gpg"
 				fi
-				key_path="/etc/apt/trusted.gpg.d/$name.$ext"
+				key_path="/etc/apt/keyrings/$name.$ext"
 				# move it into place
 				mv "$ROOT/tmp/key$i.pub" "$ROOT$key_path"
 				break
@@ -52,10 +52,10 @@ while db_get "apt-setup/local$i/repository" && [ "$RET" ]; do
 			fi
 		done
 	fi
-	echo "deb $repository" >> $file
+	echo "deb ${key_path:+[signed-by=$key_path]} $repository" >> $file
 	# if true, add a line for deb-src
 	if db_get "apt-setup/local$i/source" && [ "$RET" = true ]; then
-		echo "deb-src $repository" >> $file
+		echo "deb-src ${key_path:+[signed-by=$key_path]} $repository" >> $file
 	fi
 	i="$(($i + 1))"
 done
