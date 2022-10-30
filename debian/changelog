@@ -1,9 +1,13 @@
 apt-setup (1:0.172) UNRELEASED; urgency=medium
 
+  [ Philip Hands ]
   * use [signed-by=...] for extra repository keys
     (rather than just globally trusting them)
   * add a `_DEVEL_` repo akin to the numbered `local` repos.
     (for internal development/testing use only)
+
+  [ Samuel Thibault ]
+  * For port architectures, trust snapshot.debian.org.
 
  -- Philip Hands <phil@hands.com>  Sun, 30 Oct 2022 12:49:30 +0100
 
