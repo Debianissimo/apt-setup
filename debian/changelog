@@ -2,8 +2,10 @@ apt-setup (1:0.172) UNRELEASED; urgency=medium
 
   * use [signed-by=...] for extra repository keys
     (rather than just globally trusting them)
+  * add a `_DEVEL_` repo akin to the numbered `local` repos.
+    (for internal development/testing use only)
 
- -- Philip Hands <phil@hands.com>  Sat, 22 Oct 2022 21:19:26 +0200
+ -- Philip Hands <phil@hands.com>  Sun, 30 Oct 2022 12:49:30 +0100
 
 apt-setup (1:0.171) unstable; urgency=medium
 
