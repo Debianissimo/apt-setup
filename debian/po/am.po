@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 22:41+0100\n"
-"PO-Revision-Date: 2019-08-28 18:09+0000\n"
-"Last-Translator: leela <53352@protonmail.com>\n"
+"PO-Revision-Date: 2022-12-11 11:40+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
 "Language: am\n"
 "MIME-Version: 1.0\n"
@@ -50,28 +50,28 @@ msgstr "apt በማስተካከል ላይ"
 #. :sl2:
 #: ../apt-setup-udeb.templates:3001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} በማስክከድ ላይ..."
+msgstr "${SCRIPT} በማስክከድ ላይ…"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "የከባቢ ማኅደሮችን በማሰስ ላይ..."
+msgstr "የከባቢ ማኅደሮችን በማሰስ ላይ…"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:5001
 msgid "Scanning the security updates repository..."
-msgstr "የደህንነት ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
+msgstr "የደህንነት ማሻሻያ ማኅደሮችን በመፈተሽ ላይ…"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
+msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ…"
 
 #. Type: text
 #. Description
@@ -79,7 +79,7 @@ msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
 #: ../apt-setup-udeb.templates:7001
 #, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ..."
+msgstr "የዝርያ ማሻሻያ ማኅደሮችን በመፈተሽ ላይ…"
 
 #. Type: select
 #. Choices
@@ -388,7 +388,7 @@ msgstr ""
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "የnetinst CD አኮላሽ in sources.list..."
+msgstr "የnetinst CD አኮላሽ in sources.list…"
 
 #. Type: text
 #. Description
