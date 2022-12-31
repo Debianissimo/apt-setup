@@ -1,3 +1,16 @@
+apt-setup (1:0.173) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Amharic (am.po) by Danial Behzadi
+  * Asturian (ast.po) by Danial Behzadi
+  * Bengali (bn.po) by Danial Behzadi
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 31 Dec 2022 16:17:44 +0100
+
 apt-setup (1:0.172) unstable; urgency=medium
 
   * Team upload
