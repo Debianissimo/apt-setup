@@ -1,6 +1,24 @@
 apt-setup (1:0.174) UNRELEASED; urgency=medium
 
+  [ Holger Wansing ]
   * Set Standards-Version to 3.8.4 (checked).
+
+  [ Cyril Brulebois ]
+  * Add support for non-free-firmware, following the 2022 General
+    Resolution about non-free firmware:
+     - Add an apt-setup/non-free-firmware template, similar to the
+       non-free and contrib ones, used by 50mirror to enable the
+       non-free-firmware component.
+     - The question is only asked for expert installs (low priority).
+     - non-free-firmware is not enabled by default.
+     - non-free-firmware can be enabled automatically by hw-detect if it
+       detects the need for packages from non-free-firmware.
+     - It's independent from the existing non-free/contrib logic.
+  * Fix component handling in Debian generators:
+     - Make 50mirror save the list of enabled components.
+     - Make later generators read that list instead of parsing a partial
+       sources.list file.
+     - Doing so propagates non-free-firmware support to those generators.
 
  -- Holger Wansing <hwansing@mailbox.org>  Wed, 04 Jan 2023 23:24:35 +0100
 
