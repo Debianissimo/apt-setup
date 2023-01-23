@@ -296,3 +296,6 @@ if [ -n "${use_unreleased}" ]; then
 	echo "# 'unreleased' does not support sources yet" >> $file
 	echo "# $deb_src $trusted$protocol://$hostname$directory unreleased main" >> $file
 fi
+
+# Remember components so that other generators don't have to grep:
+echo $components > /tmp/apt-setup.components
