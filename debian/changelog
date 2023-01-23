@@ -20,6 +20,10 @@ apt-setup (1:0.174) UNRELEASED; urgency=medium
        sources.list file.
      - Doing so propagates non-free-firmware support to those generators.
 
+  [ Updated translations ]
+  * Hungarian (hu.po) by Szabó Péter
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+
  -- Holger Wansing <hwansing@mailbox.org>  Wed, 04 Jan 2023 23:24:35 +0100
 
 apt-setup (1:0.173) unstable; urgency=medium
