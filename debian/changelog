@@ -1,4 +1,4 @@
-apt-setup (1:0.174) UNRELEASED; urgency=medium
+apt-setup (1:0.174) unstable; urgency=medium
 
   [ Holger Wansing ]
   * Set Standards-Version to 3.8.4 (checked).
@@ -24,7 +24,7 @@ apt-setup (1:0.174) UNRELEASED; urgency=medium
   * Hungarian (hu.po) by Szabó Péter
   * Macedonian (mk.po) by Kristijan Fremen Velkovski
 
- -- Holger Wansing <hwansing@mailbox.org>  Wed, 04 Jan 2023 23:24:35 +0100
+ -- Cyril Brulebois <kibi@debian.org>  Mon, 23 Jan 2023 03:40:57 +0100
 
 apt-setup (1:0.173) unstable; urgency=medium
 
