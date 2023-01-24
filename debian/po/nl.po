@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer/sublevel1\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2022-01-08 21:43+0100\n"
+"PO-Revision-Date: 2023-01-24 12:12+0100\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -544,32 +544,24 @@ msgstr "De spiegelserver wordt nagelopen..."
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "Programma's uit de 'non-free'-sectie gebruiken?"
+msgstr "Niet-vrije firmware gebruiken?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Sommige niet-vrije software is voor Debian beschikbaar gemaakt. Hoewel deze "
-"software geen deel uitmaakt van Debian, kunt u de standaard Debian-"
+"Sommige niet-vrije firmware is voor Debian beschikbaar gemaakt. Hoewel deze "
+"firmware geen deel uitmaakt van Debian, kunt u de standaard Debian-"
 "hulpprogramma's gebruiken om ze te installeren. De licentievoorwaarden van "
-"deze programma's varieert en beperkt mogelijk het gebruik, de aanpassing of "
-"het delen van deze programma's."
+"deze firmware varieert en beperkt mogelijk het gebruik, de aanpassing of het "
+"delen ervan."
 
 #. Type: boolean
 #. Description
