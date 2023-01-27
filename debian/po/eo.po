@@ -9,21 +9,22 @@
 #
 # Samuel Gimeno <sgimeno@gmail.com>, 2005.
 # Serge Leblanc <serge.leblanc@wanadoo.fr>, 2005, 2006, 2007.
-# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2017, 2018, 2020.
+# Felipe Castro <fefcas@gmail.com>, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2017, 2018, 2020, 2022.
 #
 # Translations from iso-codes:
 # Alastair McKInstry <mckinstry@computer.org>, 2001,2002.
 # Copyright (C) 2001,2002,2003,2004 Free Software Foundation, Inc.
 # D. Dale Gulledge <dsplat@rochester.rr.com> (translations from drakfw), 2001.
 # Edmund GRIMLEY EVANS <edmundo@rano.org>, 2004-2011
+# phlostically <phlostically@mailinator.com>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2020-01-03 17:56+0000\n"
-"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
+"PO-Revision-Date: 2023-01-27 06:49+0000\n"
+"Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
@@ -526,31 +527,23 @@ msgstr "Skanado de la spegularkivo..."
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "Ĉu uzi neliberan programaron?"
+msgstr "Ĉu uzi neliberan mikroprogramaron?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Kelkaj neliberaj programaroj funkcias kun Debiano. Kvankam tiu programaro "
-"tute ne apartenas al Debiano, ordinaran Debianan ilaron eblas uzi por "
-"instali ĝin. Tiu programaro trudas diversajn uzrajtojn kiuj povas malebligi "
-"ke vi uzu, modifu, aŭ distribuu ĝin."
+"Kelkaj neliberaj mikroprogramaroj funkcias kun Debiano. Kvankam tiu "
+"mikroprogramaro tute ne apartenas al Debiano, ordinaran Debianan ilaron "
+"eblas uzi por instali ĝin. Tiu mikroprogramaro trudas diversajn uzrajtojn "
+"kiuj povas malebligi ke vi uzu, modifu, aŭ distribuu ĝin."
 
 #. Type: boolean
 #. Description

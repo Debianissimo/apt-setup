@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2022-05-08 08:16+0000\n"
+"PO-Revision-Date: 2023-01-26 07:52+0000\n"
 "Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -542,32 +542,24 @@ msgstr "Skanowanie serwera lustrzanego..."
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "Czy używać oprogramowania nie wolnodostępnego?"
+msgstr "Używać niewolnego oprogramowania układowego?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Do działania w systemie Debian przystosowano różne programy, które nie są "
-"wolnodostępne. Choć nie są one w żadnym przypadku częścią Debiana, "
-"standardowe narzędzia Debiana umożliwiają ich instalację. Programy te mają "
-"różne licencje, które mogą uniemożliwić Ci ich używanie, modyfikację lub "
-"rozprowadzanie."
+"Niektóre niewolne oprogramowanie układowe zostało stworzone do pracy z "
+"Debianem. Chociaż to oprogramowanie układowe w ogóle nie jest częścią "
+"Debiana, do jego zainstalowania można użyć standardowych narzędzi Debiana. "
+"To oprogramowanie układowe ma różne licencje, które mogą uniemożliwiać jego "
+"używanie, modyfikowanie lub udostępnianie."
 
 #. Type: boolean
 #. Description
