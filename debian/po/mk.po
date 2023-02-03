@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2023-01-27 06:49+0000\n"
+"PO-Revision-Date: 2023-02-02 11:37+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <>\n"
 "Language: mk\n"
@@ -84,9 +84,8 @@ msgstr "Скенирам складиште за надградби..."
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
-#, fuzzy
 msgid "Scanning the backports repository..."
-msgstr "Скенирам складиште за надградби..."
+msgstr "Скенирање на складиште за задни порти..."
 
 #. Type: select
 #. Choices
@@ -264,7 +263,7 @@ msgstr ""
 #. :sl3:
 #: ../apt-setup-udeb.templates:12001
 msgid "Enable source repositories in APT?"
-msgstr ""
+msgstr "Вклучите изборни складишта во APT?"
 
 #. Type: boolean
 #. Description
@@ -276,6 +275,10 @@ msgid ""
 "you don't need this feature, you can disable those entries and save some "
 "bandwidth during \"apt-get update\" operations."
 msgstr ""
+"По стандард, изворните складишта се наведени во /etc/apt/sources.list (со "
+"соодветни линии \"deb-src\"), така што \"apt-get source\" работи. Меѓутоа, "
+"ако не ви е потребна оваа функција, можете да ги извадите тие записи и да "
+"заштедите на интернет за време на операциите \"apt-get update\"."
 
 #. Type: text
 #. Description
@@ -411,53 +414,49 @@ msgstr "Го исклучувам netisnt CD-то во sources.list..."
 #. Description
 #. :sl2:
 #: ../apt-cdrom-setup.templates:9001 ../apt-mirror-setup.templates:7001
-#, fuzzy
 msgid ""
 "If you are installing from a netinst CD image and choose not to use a "
 "mirror, you will end up with only a very minimal base system."
 msgstr ""
-"Ако инсталирате од CD за мрежна инсталација и одберете дека нема да "
-"користите огледало, на крај ќе биде инсталиран само основниот минимален "
-"систем."
+"Ако инсталирате од CD за мрежна инсталација и одберете да не се користи "
+"огледало, на крај ќе го имате само основниот минимален систем."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:10001
-#, fuzzy
 msgid ""
 "You are installing from a netinst CD image, which by itself only allows "
 "installation of a very minimal base system. Use a mirror to install a more "
 "complete system."
 msgstr ""
-"Инсталирате од netinst CD кое што дозволува само инсталација на основен "
-"минимален систем. За да инсталирате комплетен систем послужете се со некој "
-"од огледало серверите."
+"Вие инсталирате од netinst ЦД слика, што само по себе дозволува инсталирање "
+"на многу минимален базен систем. Користете огледало за да инсталирате "
+"поцелосен систем."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:11001
-#, fuzzy
 msgid ""
 "You are installing from an image which contains a limited selection of "
 "packages."
-msgstr "Инсталирате од CD кое што содржи лимитиран избор на пакети."
+msgstr "Инсталирате од слика која што содржи ограничен избор на пакети."
 
 #. Type: text
 #. Description
 #. :sl1:
 #. The value of %i can be 2 or 3
 #: ../apt-cdrom-setup.templates:12001
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "You have scanned %i images. Even though these contain a fair selection of "
 "packages, some may be missing (notably some packages needed to support "
 "languages other than English)."
 msgstr ""
-"Скениравте %i CD-а. Иако овие содржат доста голем избор на пакети некои може "
-"да недостасуваат (на пр. пакети кои што треба да нудат поддршка за други "
-"јазици, освен Англискиот)."
+"Скениравте %i слики. Иако овие содржат доста голем избор на пакети, некои "
+"може да недостасуваат (особено некои пакети потребни за поддршка на јазици "
+"различни од англискиот)."
 
 #. Type: text
 #. Description
@@ -529,25 +528,23 @@ msgstr "Скенирање на алтернативната локација...
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
 msgid "Use non-free firmware?"
-msgstr "Користни не отворен софтвер?"
+msgstr "Користи не-слободен фирмвер?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Одреден неслободен софтвер е направен да работи со Debian. Иако овој софтвер "
+"Одреден неслободен фирмвер е направен да работи со Debian. Иако овој фирмвер "
 "воопшто не е дел од Debian, може да се инсталира со стандардните Debian "
-"алатки. Овој софтвер може да има различна лиценца која може да ти оневозможи "
-"негово користење, измена или споделување."
+"алатки. Овој фирмвер може да има различна лиценца која може да го оневозможи "
+"неговото користење, измена или споделување."
 
 #. Type: boolean
 #. Description
