@@ -24,13 +24,14 @@
 #   Grégoire Colbert <gregus@linux-mandrake.com>, 2001.
 #   Tobias Quathamer <toddy@debian.org>, 2007, 2008.
 # Alban Vidal <alban.vidal@zordhak.fr>, 2018.
-# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020.
+# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020, 2022.
+# bubu <bubub@no-log.org>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2020-08-17 10:18+0100\n"
+"PO-Revision-Date: 2023-02-04 16:28+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -550,31 +551,24 @@ msgstr "Analyse du miroir..."
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "Souhaitez-vous utiliser des logiciels non libres ?"
+msgstr "Souhaitez-vous utiliser des microprogrammes non libres ?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Certains logiciels non libres peuvent fonctionner avec Debian. Bien qu'ils "
-"ne fassent pas partie de Debian, les outils habituels peuvent être utilisés "
-"pour les installer. Ces logiciels comportent des restrictions en ce qui "
-"concerne leur distribution, leur modification ou leur utilisation."
+"Certains microprogrammes (« firmwares ») non libres peuvent fonctionner avec "
+"Debian. Bien qu'ils ne fassent pas partie de Debian, les outils habituels "
+"peuvent être utilisés pour les installer. Ces microprogrammes comportent des "
+"restrictions en ce qui concerne leur distribution, leur modification ou leur "
+"utilisation."
 
 #. Type: boolean
 #. Description
