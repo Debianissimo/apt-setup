@@ -24,13 +24,14 @@
 #
 #   Kentaro Hayashi <kenhys@gmail.com>, 2021.
 #   YOSHINO Yoshihito <yy.y.ja.jp@gmail.com>, 2021.
+#   Norimitsu SUGIMOTO <dictoss@live.jp>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2021-04-29 17:54+0000\n"
-"Last-Translator: YOSHINO Yoshihito <yy.y.ja.jp@gmail.com>\n"
+"PO-Revision-Date: 2023-02-04 13:40+0000\n"
+"Last-Translator: Kentaro Hayashi <kenhys@gmail.com>\n"
 "Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -532,31 +533,23 @@ msgstr "ミラーを検査しています..."
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "non-free のソフトウェアを使用しますか?"
+msgstr "non-free のファームウェアを使用しますか?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Debian ではいくつかの non-free ソフトウェアが利用可能になっています。たとえこ"
-"れらのソフトウェアが正しい Debian の一部ではないにせよ、標準的な Debian の"
-"ツールを利用してインストールすることができます。これらのソフトウェアは配布や"
-"修正、使用に関して制限があります。"
+"Debian ではいくつかの non-free ファームウェアが利用可能になっています。たとえ"
+"これらのファームウェアが正しい Debian の一部ではないにせよ、標準的な Debian "
+"のツールを利用してインストールすることができます。これらのファームウェアは配"
+"布や修正、使用に関して制限があります。"
 
 #. Type: boolean
 #. Description
