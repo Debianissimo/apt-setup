@@ -1,3 +1,15 @@
+apt-setup (1:0.176) unstable; urgency=medium
+
+  [ Updated translations ]
+  * French (fr.po) by Baptiste Jammet
+  * Japanese (ja.po) by Kentaro Hayashi
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+  * Occitan (oc.po) by Quentin PAGÈS
+  * Swedish (sv.po) by Luna Jernberg
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 07 Feb 2023 15:25:27 +0100
+
 apt-setup (1:0.175) unstable; urgency=medium
 
   [ Cyril Brulebois ]
