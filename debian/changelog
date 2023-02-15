@@ -1,3 +1,11 @@
+apt-setup (1:0.177) UNRELEASED; urgency=medium
+
+  [ Updated translations ]
+  * Galician (gl.po) by gallegonovato
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 15 Feb 2023 16:44:35 +0100
+
 apt-setup (1:0.176) unstable; urgency=medium
 
   [ Updated translations ]
