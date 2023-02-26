@@ -20,12 +20,14 @@
 # Alastair McKinstry, <mckinstry@computer.org>, 2002.
 # Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2012, 2013.
 # Alastair McKinstry <mckinstry@computer.org>, 2002.
+# Sveinn í Felli <sv1@fellsnet.is>, 2020, 2021, 2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2020-06-23 09:41+0000\n"
+"PO-Revision-Date: 2023-02-25 12:40+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -534,31 +536,24 @@ msgstr "Skanna spegilinn..."
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "Nota ófrjálsan hugbúnað?"
+msgstr "Nota ófrjálsan grunnhugbúnað (firmware)?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Nokkuð af ófrjálsum hugbúnaði er í boði sem virkar með Debian. Þrátt fyrir "
-"að vera ekki hluti af Debian þá er hægt að nota Debian tól til þess að setja "
-"hann upp. Misjafnt er hvernig leyfum er háttað fyrir þennan hugbúnað "
-"varðandi notkun, breytingar og miðlun til annara."
+"Nokkuð af ófrjálsum grunnhugbúnaði er í boði sem virkar með Debian. Þrátt "
+"fyrir að grunnhugbúnaðurinn sé ekki hluti af Debian þá er hægt að nota "
+"venjuleg Debian-tól til þess að setja hann upp. Misjafnt er hvernig "
+"notkunarleyfum er háttað fyrir þennan grunnhugbúnað varðandi notkun, "
+"breytingar og miðlun til annara."
 
 #. Type: boolean
 #. Description
