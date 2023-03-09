@@ -25,8 +25,8 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2019-08-28 18:09+0000\n"
-"Last-Translator: leela <53352@protonmail.com>\n"
+"PO-Revision-Date: 2023-03-06 07:37+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
@@ -110,9 +110,8 @@ msgstr "იგნორირება"
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
-#, fuzzy
 msgid "Downloading local repository key failed:"
-msgstr "ფაილი ვერ ჩამოიტვირთა:"
+msgstr "ლოკალური რეპოზიტორიის გასაღების გადმოწერის შეცდომა:"
 
 #. Type: select
 #. Description
@@ -128,15 +127,14 @@ msgstr ""
 #. Type: select
 #. Description
 #: ../apt-setup-udeb.templates:8002
-#, fuzzy
 msgid ""
 "This may be a problem with your network, or with the server hosting this "
 "key. You can choose to retry the download, or ignore the problem and "
 "continue without all the packages from this repository."
 msgstr ""
-"ინსტალერი ვერ დაუკავშირდა მირორს. ეს შეიძლება იყოს როგორც ქსელის, ასევე "
-"სარკის პრობლემა. თქვენ შეგიძლიათ გაიმეოროთ მცდელობა, შეცვალოთ მირორი, ან "
-"გამოტოვოთ ეს პაკეტი და გააგრძელოთ."
+"პრობლემაა ქსელთან ან სერვერთან, სადაც გასაღებია მოთავსებული. შეგიძლიათ "
+"გასაღების გადმოწერა თავიდან სცადოთ, ან ყურადღება არ მიაქციოთ პრობლემას და ამ "
+"რეპოზიტორიის პაკეტების გარეშე გააგრძელოთ."
 
 #. Type: error
 #. Description
@@ -173,7 +171,7 @@ msgstr "/etc/apt/sources.list ფაილში დაემატა ${HOST}-�
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
 msgid "security updates (from ${SEC_HOST})"
-msgstr ""
+msgstr "უსაფრთხოების განახლებები (${SEC_HOST}-დან)"
 
 #. Type: multiselect
 #. Choices
@@ -182,9 +180,8 @@ msgstr ""
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
 msgid "release updates"
-msgstr "მონაცემთა წაშლა:"
+msgstr "რელიზის განახლებები"
 
 #. Type: multiselect
 #. Choices
@@ -193,17 +190,15 @@ msgstr "მონაცემთა წაშლა:"
 #. including host name. In short, KEEP THIS SHORT and, yes, that's tricky
 #. :sl1:
 #: ../apt-setup-udeb.templates:11001
-#, fuzzy
 msgid "backported software"
-msgstr "გამოვიყენოთ გადმოტანილი პროგრამები?"
+msgstr "გადმოტანილი პროგრამები"
 
 #. Type: multiselect
 #. Description
 #. :sl1:
 #: ../apt-setup-udeb.templates:11002
-#, fuzzy
 msgid "Services to use:"
-msgstr "სასურველი NTP სერვერი:"
+msgstr "გამოსაყენებელი სერვისები:"
 
 #. Type: multiselect
 #. Description
@@ -213,6 +208,8 @@ msgid ""
 "Debian has two services that provide updates to releases: security and "
 "release updates."
 msgstr ""
+"Debian-ს ორი სერვისი აქვს, რომელსაც რელიზების განახლება შეუძლია: "
+"უსაფრთხოების და რელიზის განახლებები."
 
 #. Type: multiselect
 #. Description
@@ -274,9 +271,8 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:1001
-#, fuzzy
 msgid "Scanning the installation media..."
-msgstr "ინსტალაციის დასრულება"
+msgstr "დაყენების მედიის სკანირება..."
 
 #. Type: error
 #. Description
@@ -539,7 +535,6 @@ msgstr "სარკის სკანირება..."
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
 #, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
 msgstr "გამოვიყენოთ არათავისუფალი პროგრამები?"
 
@@ -548,11 +543,6 @@ msgstr "გამოვიყენოთ არათავისუფალ�
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
 #, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
@@ -652,8 +642,6 @@ msgid ""
 "Please choose whether you want this software to be made available to you."
 msgstr "გინდათ ეს პროგრამები ხელმისაწვდომი იყოს."
 
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
 #. Type: select
 #. Choices
 #. :sl2:
