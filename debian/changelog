@@ -1,3 +1,21 @@
+apt-setup (1:0.178) unstable; urgency=medium
+
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Fix regression in Spanish translation (Closes: #1032219).
+
+  [ Updated translations ]
+  * Indonesian (id.po) by Andika Triwidada
+  * Icelandic (is.po) by Sveinn í Felli
+  * Georgian (ka.po) by Temuri Doghonadze
+  * Portuguese (pt.po) by Miguel Figueiredo
+  * Sinhala (si.po) by HelaBasa Group
+  * Turkish (tr.po) by Fatih Altun
+  * Vietnamese (vi.po) by tictactoe
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 13 Mar 2023 11:51:55 +0100
+
 apt-setup (1:0.177) unstable; urgency=medium
 
   [ Updated translations ]
