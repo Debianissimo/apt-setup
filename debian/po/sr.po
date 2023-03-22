@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2021-02-26 00:50+0000\n"
+"PO-Revision-Date: 2023-03-19 19:59+0000\n"
 "Last-Translator: Filipovic Dragan <filipovic@tutanota.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
@@ -527,30 +527,22 @@ msgstr "Скенирање мирорa..."
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid "Use non-free software?"
 msgid "Use non-free firmware?"
-msgstr "Користити „non-free“ софтвер?"
+msgstr "Користи „non-free“ фирмвер?"
 
 #. Type: boolean
 #. Description
 #. :sl5:
 #: ../apt-mirror-setup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some non-free software has been made to work with Debian. Though this "
-#| "software is not at all a part of Debian, standard Debian tools can be "
-#| "used to install it. This software has varying licenses which may prevent "
-#| "you from using, modifying, or sharing it."
 msgid ""
 "Some non-free firmware has been made to work with Debian. Though this "
 "firmware is not at all a part of Debian, standard Debian tools can be used "
 "to install it. This firmware has varying licenses which may prevent you from "
 "using, modifying, or sharing it."
 msgstr ""
-"Неки „non-free“ софтверски пакети су портовани на Debian. Мада ови пакети "
+"Неки „non-free“ фирмвер пакети су портовани на Debian. Мада ови фирмвери "
 "никако нису део Debian-a, стандардни Debian алати се могу користити за "
-"инсталирање оваквог софтвера. Овај софтвер има различите лиценце које вас "
+"инсталирање оваквог софтвера. Ови фирмвери има различите лиценце које вас "
 "могу спречити да га користите, мењате и делите са другима."
 
 #. Type: boolean
