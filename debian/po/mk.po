@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2023-02-02 11:37+0000\n"
+"PO-Revision-Date: 2023-03-28 01:50+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <>\n"
 "Language: mk\n"
@@ -486,13 +486,12 @@ msgstr ""
 #. Description
 #. :sl1:
 #: ../apt-cdrom-setup.templates:15001
-#, fuzzy
 msgid ""
 "You are installing from a DVD image. Even though it contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Инсталирате од DVD. Иако DVD-то содржи голем број на пакети, некои може да "
-"недостасуваат."
+"Вие инсталирате од DVD слика. Иако тоа содржи голем број на пакети, некои "
+"може да недостасуваат."
 
 #. Type: text
 #. Description
@@ -674,15 +673,14 @@ msgstr "Да користам алтернативна мрежна локаци
 #. Description
 #. :sl1:
 #: ../apt-mirror-setup.templates:6001
-#, fuzzy
 msgid ""
 "A network mirror can be used to supplement the software that is included on "
 "the installation media. This may also make newer versions of software "
 "available."
 msgstr ""
-"Може да се користи алтернативна мрежна локација како дополнителен извор на "
-"програми покрај оние на овој CD-ROM. На мрежната локација може да има и "
-"понови верзии на програмите."
+"Мрежно огледало може да се употреби за да се додаде врз софтверот што е "
+"вклучен во медијата за инсталација. Ова може да расположи понови верзии на "
+"програми."
 
 #. Type: boolean
 #. Description
