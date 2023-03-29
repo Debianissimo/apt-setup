@@ -1,3 +1,13 @@
+apt-setup (1:0.179) UNRELEASED; urgency=medium
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Milo Ivir
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+  * Romanian (ro.po) by Remus-Gabriel Chelu
+  * Serbian (sr.po) by Filipovic Dragan
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 29 Mar 2023 14:26:43 +0200
+
 apt-setup (1:0.178) unstable; urgency=medium
 
   * Team upload
