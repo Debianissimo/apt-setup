@@ -1,9 +1,16 @@
 apt-setup (1:0.180) UNRELEASED; urgency=medium
 
+  [ Cyril Brulebois ]
   * Don't disable -updates when installing for testing (Closes: #991947).
     It might make sense to have some flag to control this, and maybe only
     enable it once we move from D-I Alpha to D-I RC. In any case, let's
     turn this on right now for Bookworm!
+
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Estonian (et.po) by Kristjan Räts
+  * Hungarian (hu.po) by SZERVÁC Attila
+  * Georgian (ka.po) by Temuri Doghonadze
 
  -- Cyril Brulebois <kibi@debian.org>  Mon, 24 Apr 2023 23:24:28 +0200
 
