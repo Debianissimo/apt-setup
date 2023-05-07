@@ -1,3 +1,14 @@
+apt-setup (1:0.181) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Korean (ko.po) by Changwoo Ryu
+  * Norwegian Bokmal (nb.po) by Kjetil Sørlund
+  * Norwegian Nynorsk (nn.po) by Kjetil Sørlund
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 07 May 2023 12:25:35 +0200
+
 apt-setup (1:0.180) unstable; urgency=medium
 
   [ Cyril Brulebois ]
