@@ -24,14 +24,14 @@
 # Tobias Quathamer <toddy@debian.org>, 2007.
 # Translations taken from ICU SVN on 2007-09-09
 # Ömer Fadıl USTA <omer_fad@hotmail.com>, 1999.
-# Fatih Altun <fatih.altun@pardus.org.tr>, 2021-2022.
+# Fatih Altun <fatih.altun@pardus.org.tr>, 2021-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2023-02-19 17:31+0300\n"
+"PO-Revision-Date: 2023-05-10 11:52+0300\n"
 "Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -692,7 +692,7 @@ msgid ""
 "the installation media. This may also make newer versions of software "
 "available."
 msgstr ""
-"Kurulum medyasında bulunan yazılımı desteklemek için bir ağ aynası "
+"Kurulum medyasında bulunan yazılımı desteklemek için bir ağ yansısı "
 "kullanılabilir. Bu ayrıca yazılımın daha yeni sürümlerini kullanılabilir "
 "hale getirebilir."
 
