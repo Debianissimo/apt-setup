@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2023-05-14 17:53+0000\n"
+"PO-Revision-Date: 2023-05-16 17:21+0000\n"
 "Last-Translator: Yngve Spjeld-Landro <l10n@landro.net>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -66,7 +66,7 @@ msgstr "Køyrer ${SCRIPT} ..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:4001
 msgid "Scanning local repositories..."
-msgstr "Søkjer gjennom lokale arkiv ..."
+msgstr "Søkjer gjennom lokale arkiv …"
 
 #. Type: text
 #. Description
@@ -80,14 +80,14 @@ msgstr "Søkjer gjennom arkivet for tryggleiksoppdateringar ..."
 #. :sl2:
 #: ../apt-setup-udeb.templates:6001
 msgid "Scanning the release updates repository..."
-msgstr "Søkjer gjennom arkivet for utgjevingsopptaderingar ..."
+msgstr "Søkjer gjennom arkivet for utgjevingsoppdateringar ..."
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../apt-setup-udeb.templates:7001
 msgid "Scanning the backports repository..."
-msgstr "Søkjer gjennom arkivet for tilbakeførte opptaderingar ..."
+msgstr "Søkjer gjennom arkivet for tilbakeførte oppdateringar ..."
 
 #. Type: select
 #. Choices
@@ -123,7 +123,7 @@ msgid ""
 "The installer failed to download the public key used to sign the local "
 "repository at ${MIRROR}:"
 msgstr ""
-"Installasjonsprogrammet klarte ikkje laste ned den offentlege nøkkelen som "
+"Installasjonsprogrammet klarte ikkje å laste ned den offentlege nøkkelen som "
 "blir brukt til å signere den lokale kjelda på ${MIRROR}:"
 
 #. Type: select
@@ -662,10 +662,10 @@ msgid ""
 "different mirror, or ignore the problem and continue without all the "
 "packages from this mirror."
 msgstr ""
-"Installasjonsprogrammet får ikkje tilgang til nettarkivet. Dette kan vera "
-"eit problem med nettverket ditt eller med nettarkivet. Du kan velja å prøva "
-"å lasta ned fila på nytt, velja eit anna nettarkiv eller avbryta og velja "
-"ein annan installasjonsmåte."
+"Installasjonsprogrammet får ikkje tilgang til nettarkivet. Det kan vera eit "
+"problem med nettverket ditt eller med nettarkivet. Du kan velja å prøva å "
+"lasta ned fila på nytt, velja eit anna nettarkiv eller avbryta og velja ein "
+"annan installasjonsmåte."
 
 #. Type: boolean
 #. Description
@@ -698,7 +698,7 @@ msgstr "Gå vidare utan eit nettarkiv?"
 #. :sl2:
 #: ../apt-mirror-setup.templates:7001
 msgid "No network mirror was selected."
-msgstr "Ingen nettarkiv var valt."
+msgstr "Ikkje noko nettarkiv vart valt."
 
 #. Type: boolean
 #. Description
@@ -706,7 +706,7 @@ msgstr "Ingen nettarkiv var valt."
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:1001
 msgid "Use restricted software?"
-msgstr "Bruk programvare som har restriksjonar?"
+msgstr "Bruka programvare som har restriksjonar?"
 
 #. Type: boolean
 #. Description
@@ -720,8 +720,8 @@ msgid ""
 "prevent you from using, modifying, or sharing it."
 msgstr ""
 "Nokre ikkje-frie program er blitt gjort tilgjengeleg som pakkar. Sjølv om "
-"denne programvaren ikkje er ein del av hoveddistribusjonen, så kan vanlege "
-"pakkehandteringsverktøy brukast til å installere han. Denne programvaren har "
+"denne programvara ikkje er ein del av hovuddistribusjonen, så kan ein bruke "
+"vanlege pakkehandteringsverktøy til å installere han. Denne programvara har "
 "ulike lisensar. I nokre tilfelle kan lisensane hindre deg i å bruke han, "
 "endre han eller dele han med andre."
 
@@ -731,7 +731,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:2001
 msgid "Use software from the \"universe\" component?"
-msgstr "Bruk programvare frå «univers»-delen?"
+msgstr "Bruka programvare frå «univers»-delen?"
 
 #. Type: boolean
 #. Description
@@ -743,9 +743,9 @@ msgid ""
 "free and, though it is not a part of the main distribution, standard package "
 "management tools can be used to install it."
 msgstr ""
-"Nokre tilleggsprogram finst i standard pakkeformat. Denne programvaren er "
-"fri, og sjølv om han ikkje er ein del av hoveddistribusjonen, så kan "
-"standard pakkehandteringsverktøy brukast til å installere han."
+"Nokre tilleggsprogram finst i standard pakkeformat. Denne programvara er "
+"fri, og sjølv om ho ikkje er ein del av hoveddistribusjonen, så kan standard "
+"pakkehandteringsverktøy brukast til å installere ho."
 
 #. Type: boolean
 #. Description
@@ -753,7 +753,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:3001
 msgid "Use software from the \"multiverse\" component?"
-msgstr "Bruk programvare frå «multivers»-delen?"
+msgstr "Bruka programvare frå «multivers»-delen?"
 
 #. Type: boolean
 #. Description
@@ -768,10 +768,10 @@ msgid ""
 "sharing it."
 msgstr ""
 "Nokre ikkje-frie program er blitt gjort tilgjengeleg som pakkar. Sjølv om "
-"denne programvaren ikkje er ein del av hoveddistribusjonen, så kan vanlege "
-"pakkehandteringsverktøy brukast til å installere han. Denne programvaren har "
-"ulike lisensar. I nokre tilfelle kan lisensane hindre deg i å bruke han, "
-"endre han eller dele han med andre."
+"denne programvara ikkje er ein del av hoveddistribusjonen, så kan ein bruke "
+"vanlege pakkehandteringsverktøy brukast til å installere ho. Denne "
+"programvara har ulike lisensar. I nokre tilfelle kan lisensane hindre deg i "
+"å bruke han, endre han eller dele han med andre."
 
 #. Type: boolean
 #. Description
@@ -791,7 +791,7 @@ msgid ""
 "repository. This software is not part of Ubuntu, but is offered by Canonical "
 "and the respective vendors as a service to Ubuntu users."
 msgstr ""
-"I «partnar»-fillageret til Canonical finn du noko tilleggsprogramvare. Denne "
+"I «partnar»-fillageret til Canonical finn du noka tilleggsprogramvare. Denne "
 "er ikkje ein del av Ubuntu, men tilbydd av Canonical og dei enkelte "
 "produsentane som ei teneste til Ubuntu-brukarar."
 
@@ -801,7 +801,7 @@ msgstr ""
 #. :sl2:
 #: ../apt-mirror-setup.templates-ubuntu:5001
 msgid "Use backported software?"
-msgstr "Bruk tilbakeført programvare?"
+msgstr "Bruka tilbakeført programvare?"
 
 #. Type: boolean
 #. Description
