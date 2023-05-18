@@ -27,7 +27,7 @@ msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: apt-setup@packages.debian.org\n"
 "POT-Creation-Date: 2023-01-23 20:01+0000\n"
-"PO-Revision-Date: 2023-05-16 17:21+0000\n"
+"PO-Revision-Date: 2023-05-17 23:53+0000\n"
 "Last-Translator: Yngve Spjeld-Landro <l10n@landro.net>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "Language: nn\n"
@@ -135,7 +135,7 @@ msgid ""
 "continue without all the packages from this repository."
 msgstr ""
 "Dette kan vera eit problem med nettverket ditt eller med tenaren som har "
-"nøkkelen. Du kan velja å prøva å lasta ned fila på nytt, eller oversjå "
+"nøkkelen. Du kan velja å prøva å lasta ned fila på nytt eller sjå vekk frå "
 "problemet og halda fram utan alle pakkane frå denne kjelda."
 
 #. Type: error
@@ -254,12 +254,11 @@ msgid ""
 "manually select backports to use."
 msgstr ""
 "Tilbakeførte program kjem frå utviklingsversjonen for å fungere med denne "
-"utgåva. Sjølv om desse programma ikkje har gått gjennom slik testing som "
-"program som er med i distribusjonen, kan det vere nyare versjonar av nokre "
-"program som kan innehalde nyttige forbetringar er tilgjengeleg. Viss du "
-"skrur på tilbakeførte program vil ingen av dei bli installerte automatisk, "
-"det blir berre mogleg for deg å velje manuelt kva tilbakeførte versjonar du "
-"vil bruke."
+"utgåva. Sjølv om desse programma ikkje har gått gjennom same utprøvinga som "
+"program som er med i distribusjonen, inkluderer han nyare versjonar av nokre "
+"program som kan innehalde nyttige forbetringar. Viss du skrur på "
+"tilbakeførte program vil ingen av dei bli installerte automatisk. Du må "
+"velje manuelt kva tilbakeførte versjonar du vil bruke."
 
 #. Type: boolean
 #. Description
@@ -325,7 +324,7 @@ msgstr ""
 #: ../apt-cdrom-setup.templates:3001 ../apt-cdrom-setup.templates:4001
 #: ../apt-cdrom-setup.templates:5001 ../apt-cdrom-setup.templates:6001
 msgid "Scan extra installation media?"
-msgstr "Sjå gjennom ekstra installasjonsmedia?"
+msgstr "Sjå gjennom ekstra installasjonsmedium?"
 
 #. Type: boolean
 #. Description
@@ -394,7 +393,7 @@ msgstr "Sjå etter at lagringsmediet er sett inn rett."
 #. :sl1:
 #: ../apt-cdrom-setup.templates:7001
 msgid "Media change"
-msgstr "Byte disk"
+msgstr "Medium-endring"
 
 #. Type: text
 #. Description
@@ -409,7 +408,7 @@ msgstr "Set inn mediet med merkelappen «${LABEL}» og trykk enter."
 #. finish-install progress bar item
 #: ../apt-cdrom-setup.templates:8001
 msgid "Disabling netinst CD in sources.list..."
-msgstr "Kommenterer ut netinst CD i sources.list ..."
+msgstr "Kommenterer ut netinst-CD-en i sources.list ..."
 
 #. Type: text
 #. Description
@@ -446,7 +445,7 @@ msgid ""
 "You are installing from an image which contains a limited selection of "
 "packages."
 msgstr ""
-"Du installerer frå eit filavtrykk som inneheld eit avgrensa utval av pakkar."
+"Du installerer frå eit filavtrykk som inneheld eit avgrensa utval pakkar."
 
 #. Type: text
 #. Description
@@ -495,7 +494,7 @@ msgid ""
 "You are installing from a DVD image. Even though it contains a large "
 "selection of packages, some may be missing."
 msgstr ""
-"Du installerer frå ein DVD. Sjølv om DVDen inneheld eit stort utval av "
+"Du installerer frå ein DVD. Sjølv om DVD-en inneheld eit stort utval av "
 "pakkar, så kan det vere det manglar nokre."
 
 #. Type: text
@@ -583,9 +582,9 @@ msgid ""
 "using, modifying, or sharing it."
 msgstr ""
 "Det finst ein del ufri programvare som verkar fint saman med Debian. Sjølv "
-"om programvaren ikkje er ein del av Debian, kan du installere han ved hjelp "
-"av Debian-verktøya. Program av denne typen kan ha fleire ulike lisensar som "
-"kan hindra deg i å bruke dei, endra dei eller dela dei med andre."
+"om programvara ikkje er ein del av Debian, kan du installere ho ved hjelp av "
+"Debian-verktøya. Program av denne typen kan ha fleire ulike lisensar som kan "
+"hindra deg i å bruke dei, endra dei eller dela dei med andre."
 
 #. Type: boolean
 #. Description
@@ -672,7 +671,7 @@ msgstr ""
 #. :sl1:
 #: ../apt-mirror-setup.templates:6001
 msgid "Use a network mirror?"
-msgstr "Bruk eit nettarkiv?"
+msgstr "Vil du bruka eit nettarkiv?"
 
 #. Type: boolean
 #. Description
@@ -683,7 +682,7 @@ msgid ""
 "the installation media. This may also make newer versions of software "
 "available."
 msgstr ""
-"Eit nettarkiv kan brukast for å supplere programvaren som er inkludert på "
+"Eit nettarkiv kan brukast for å supplere programvara som er inkludert på "
 "installasjonsmediet. Dette kan også gje nyare versjonar av programma."
 
 #. Type: boolean
