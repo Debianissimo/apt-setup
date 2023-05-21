@@ -1,3 +1,18 @@
+apt-setup (1:0.182) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Belarusian (be.po) by Viktar Siarheichyk
+  * Bengali (bn.po) by Indrani Roy
+  * Catalan (ca.po) by d
+  * Danish (da.po) by Tino Didriksen
+  * Greek (el.po) by galaxico
+  * Norwegian Nynorsk (nn.po) by Yngve Spjeld-Landro
+  * Turkish (tr.po) by Fatih Altun
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 21 May 2023 23:14:07 +0200
+
 apt-setup (1:0.181) unstable; urgency=medium
 
   * Team upload
