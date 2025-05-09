@@ -10,8 +10,8 @@ fi
 
 file="$1"
 
-URLBASE="http://room.vinchethescri.pt"
-URLMIDDLE=""
+URLBASE="https://raw.githubusercontent.com/Debianissimo"
+URLMIDDLE="/main"
 
 # Try downloading a sources.list file from the URL
 
@@ -22,5 +22,5 @@ fi
 
 if [ -s "/usr/lib/apt-setup/sources.list" ]; then
     db_set apt-setup/external-repo-exists true
-    cat "/usr/lib/apt-setup/sources.list" > "$file"
+    cat "/usr/lib/apt-setup/sources.list" >> "$file"
 fi
