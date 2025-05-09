@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+if db_get debtarget-chooser/mode && [ "$RET" = "ordissimo" ]; then
+    exit 0
+fi
+
+file="$1"
+
+URLBASE="http://room.vinchethescri.pt"
+URLMIDDLE=""
+
+# Try downloading a sources.list file from the URL
+
+if [ -n "$URLBASE" ]; then
+    wget -qO "/usr/lib/apt-setup/sources.list" "$URLBASE/apt-setup$URLMIDDLE/sources.list" || true
+fi
+
+
+if [ -s "/usr/lib/apt-setup/sources.list" ]; then
+    db_set apt-setup/external-repo-exists true
+    cat "/usr/lib/apt-setup/sources.list" > "$file"
+fi

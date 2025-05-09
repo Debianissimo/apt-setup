@@ -124,3 +124,10 @@ Description: for internal use; can be preseeded
  without using 'dpkg --force-architecture', in addition to the native
  architecture. If empty, only allow installing packages from the native
  architecture.
+
+Template: apt-setup/external-repo-exists
+Type: string
+Default: false
+Description: for internal use only
+ If this is false, then there are no repositories
+ available for patching the system.

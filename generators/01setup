@@ -12,7 +12,7 @@ file="$1"
 if [ -e $ROOT/etc/apt/apt.conf ]; then
 	cp -a $ROOT/etc/apt/apt.conf $ROOT/etc/apt/apt.conf.new
 else
-	>$ROOT/etc/apt/apt.conf.new
+	true >$ROOT/etc/apt/apt.conf.new
 fi
 
 chroot=
@@ -20,13 +20,15 @@ if [ "$ROOT" ]; then
 	chroot=chroot
 fi
 
-db_get apt-setup/multiarch
-if [ "$RET" ]; then
-	for arch in $RET; do
-		$chroot $ROOT dpkg --add-architecture "$arch"
-	done
-else
-	for arch in $($chroot $ROOT dpkg --print-foreign-architectures); do
-		$chroot $ROOT dpkg --remove-architecture "$arch"
-	done
+if [ "$(cut -d'.' -f1 < /etc/debian_version)" -ge 7 ]; then
+	db_get apt-setup/multiarch
+	if [ "$RET" ]; then
+		for arch in $RET; do
+			$chroot $ROOT dpkg --add-architecture "$arch"
+		done
+	else
+		for arch in $($chroot $ROOT dpkg --print-foreign-architectures); do
+			$chroot $ROOT dpkg --remove-architecture "$arch"
+		done
+	fi
 fi

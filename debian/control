@@ -9,7 +9,7 @@ Vcs-Git: https://salsa.debian.org/installer-team/apt-setup.git
 
 Package: apt-setup-udeb
 Package-Type: udeb
-Architecture: any
+Architecture: all
 Priority: standard
 XB-Installer-Menu-Item: 7000
 Depends: apt-mirror-setup, installed-base, di-utils, ${misc:Depends}
@@ -20,10 +20,3 @@ Package-Type: udeb
 Architecture: all
 Depends: choose-mirror-bin, base-installer (>= 1.195), ${misc:Depends}
 Description: set up a mirror in sources.list
-
-Package: apt-cdrom-setup
-Package-Type: udeb
-Architecture: all
-Provides: apt-mirror-setup
-Depends: cdrom-detect, ${misc:Depends}
-Description: set up a CD in sources.list

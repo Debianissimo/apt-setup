@@ -37,7 +37,7 @@ db_capb backup progresscancel
 db_progress START 0 $(expr $gencount \* 200) apt-setup/progress/title
 
 PROGRESS_FROM=0
-PROGRESS_TO=100
+PROGRESS_TO=80
 export PROGRESS_FROM
 export PROGRESS_TO
 
@@ -95,6 +95,21 @@ if [ -s $ROOT/etc/apt/apt.conf.new ]; then
 else
 	rm -f $ROOT/etc/apt/apt.conf.new
 fi
+
+# At this point, we're updating the package lists
+# so we can proceed with the next steps.
+db_get debtarget-chooser/version
+ver="$RET"
+
+# NOTE: on sr2018 apt-ordissimo installs these
+#		packages automatically, but this is not
+#		available on older versions. We are going
+#		to work around this by simply installing
+#		those packages manually.
+
+in-target debconf-apt-progress --from 80 --to 85 -- apt-get update
+in-target debconf-apt-progress --from 85 --to 95 -- apt-get install -y --allow-unauthenticated apt-ordissimo-common apt-ordissimo-$ver
+in-target debconf-apt-progress --from 95 --to 100 -- apt-get update
 
 db_progress STOP
 db_capb backup

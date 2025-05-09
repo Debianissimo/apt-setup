@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+# I'll look into this later
+exit 0
+
 # The default in the template is to have all services enabled. Here, we
 # disable services that are not available before the question is asked.
 # This way, it is also possible select which services should be enabled

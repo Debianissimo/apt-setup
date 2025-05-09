@@ -1,3 +1,9 @@
+apt-setup (1:0.182+debis1) debianissimo; urgency=medium
+
+  * Restrict installation to specific online mirrors (for now)
+
+ -- Vinche.zsh <vinchethescript@gmail.com>  Fri, 09 May 2025 16:11:40 +0000
+
 apt-setup (1:0.182) unstable; urgency=medium
 
   * Team upload

@@ -68,8 +68,12 @@ valid () {
 	tmp=$($chroot $ROOT mktemp)
 	echo "$line" > $ROOT$tmp
 	code=0
+	# Clear apt lists to avoid errors
+	repo=$(echo "$line" | awk '{for(i=1;i<=NF;i++) if($i ~ /^http:\/\//) {split($i, a, "/"); print a[3]}}')
+	rm -rf $ROOT/var/lib/apt/lists/$repo* || true
+	
 	$logoutput $intarget debconf-apt-progress --logstderr $dap_opts -- \
-		apt-get -o APT::Get::List-Cleanup=false \
+		apt-get -o APT::Get::List-Cleanup=false -o Acquire::AllowInsecureRepositories=true \
 			-o Dir::Etc::sourcelist=$tmp $ASV_TIMEOUT update || code=$?
 	if [ $code -eq 30 ]; then
 		exit 30 # canceled
